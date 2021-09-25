@@ -1,0 +1,6 @@
+venv/
+*.pyproj
+*.png
+pdata/maps/__pycache__/
+__pycache__/
+*egg-info/
