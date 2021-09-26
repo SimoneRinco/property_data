@@ -18,15 +18,6 @@ if __name__ == '__main__':
 
   r = requests.get(url, params)
 
-  #print('=====HEADERS')
-  #print(r.headers)
-
-  #print('=====TEXT')
-  #print(r.text)
-
-  #print('=====URL')
-  #print(r.url)
-
   with open('example3.png', 'wb') as f:
     for chunk in r.iter_content(chunk_size=128):
       f.write(chunk)
