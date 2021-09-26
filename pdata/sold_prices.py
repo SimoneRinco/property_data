@@ -4,6 +4,7 @@ from pdata.postcode import sanitize as postcode_sanitize
 from pdata.req import get_json
 from pdata.pdkey import PKEY
 
+import datetime
 import json
 import os
 
@@ -13,10 +14,10 @@ class Data(object):
   class RawItem(object):
 
     def __init__(self, d):
-      """Initialisation from a dictionary
+      """Initialisation from the dictionary returned by the sold-prices Property Data API call
       """
       # fill the None fields if required
-      self.date = d['date']
+      self.date = datetime.date.fromisoformat(d['date'])
       self.address = None
       self.price = int(d['price'])
       self.coordinates = dict2coo(d)
@@ -33,6 +34,8 @@ class Data(object):
     self.raw_items = []
     for r in d['data']['raw_data']:
       self.raw_items.append(Data.RawItem(r))
+    self.date_earliest = datetime.date.fromisoformat(d['data']['date_earliest'])
+    self.date_latest = datetime.date.fromisoformat(d['data']['date_latest'])
     
 
 def req_sold_prices(postcode, max_age=12, ptype=None, npoints=100):

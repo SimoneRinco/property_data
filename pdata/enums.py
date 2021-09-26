@@ -30,3 +30,13 @@ def property_type2str(ptype):
     return 'detached_house'
   raise RuntimeError(f'Invalid property type {ptype}')
 
+def property_type2prettystr(ptype):
+  if ptype == PropertyType.FLAT:
+    return 'Flat'
+  if ptype == PropertyType.TERRACED:
+    return 'Terraced'
+  if ptype == PropertyType.SEMI_DETACHED:
+    return 'Semi Detached'
+  if ptype == PropertyType.DETACHED:
+    return 'Detached'
+  raise RuntimeError(f'Invalid property type {ptype}')
