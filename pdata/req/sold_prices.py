@@ -1,7 +1,7 @@
 from pdata.enums import PropertyType, str2property_type, property_type2str
 from pdata.coordinates import LatLng, dict2coo
 from pdata.postcode import sanitize as postcode_sanitize
-from pdata.req import get_json
+from pdata.req.req import get_json
 from pdata.pdkey import PKEY
 
 import datetime
@@ -34,6 +34,10 @@ class Data(object):
     self.raw_items = []
     for r in d['data']['raw_data']:
       self.raw_items.append(Data.RawItem(r))
+
+    self.postcode = d['postcode']
+    self.points_analysed = int(d['data']['points_analysed'])
+    self.radius = float(d['data']['radius'])
     self.date_earliest = datetime.date.fromisoformat(d['data']['date_earliest'])
     self.date_latest = datetime.date.fromisoformat(d['data']['date_latest'])
     
