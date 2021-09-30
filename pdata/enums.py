@@ -7,6 +7,12 @@ class PropertyType(Enum):
   SEMI_DETACHED = eauto()
   DETACHED = eauto()
 
+PROPERTY_TYPES = [
+  PropertyType.FLAT,
+  PropertyType.TERRACED,
+  PropertyType.SEMI_DETACHED,
+  PropertyType.DETACHED
+  ]
 
 def str2property_type(str_name):
   if str_name == 'flat':

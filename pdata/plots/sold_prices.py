@@ -1,5 +1,6 @@
+from pdata.plots.colors import get_color
 from pdata.req.sold_prices import Data
-from pdata.enums import PropertyType, property_type2prettystr
+from pdata.enums import PROPERTY_TYPES, property_type2prettystr
 
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
@@ -10,13 +11,6 @@ import json
 import datetime
 
 def sold_prices_plots(data, min_date=None):
-
-  colors = {
-    PropertyType.FLAT : [None, 'peachpuff', 'peru', 'sienna', None, None],
-    PropertyType.TERRACED : [None, 'bisque', 'tan', 'orange', 'darkorange', None],
-    PropertyType.SEMI_DETACHED : [None, None, 'lavender', 'skyblue', 'steelblue', 'dodgerblue'],
-    PropertyType.DETACHED : [None, None, 'yellow', 'lawngreen', 'lightgreen', 'lime', 'forestgreen', 'darkgreen'],
-    }
 
   def def_factory():
     return defaultdict(list)
@@ -38,15 +32,16 @@ def sold_prices_plots(data, min_date=None):
   fig = plt.figure()
   fig.suptitle(f'Sold prices ({data.points_analysed} properties) in {data.postcode} (radius={data.radius}) from {min_date} to {data.date_latest}')
 
-  gs = GridSpec(nrows=len(colors.keys()), ncols=1)
-  for index, (ptype, colors_per_bedroom) in enumerate(colors.items()):
+  gs = GridSpec(nrows=len(PROPERTY_TYPES), ncols=1)
+  for index, ptype in enumerate(PROPERTY_TYPES):
     ax = fig.add_subplot(gs[index, 0])
     ax.set_title(property_type2prettystr(ptype))
-    for bedrooms, color in enumerate(colors_per_bedroom, start=0):
+    for nbeds in range(2, 5):
+      color = get_color(ptype, nbeds)
       if color is not None:
-        prices = grouped_data[ptype][bedrooms]
+        prices = grouped_data[ptype][nbeds]
         if len(prices) > 0:
-          ax.hist(prices, bins=40, range=(180000, 650000), alpha=0.5, color=color, label=f'{bedrooms} bed [{len(prices)}]')
+          ax.hist(prices, bins=40, range=(180000, 650000), alpha=0.5, color=color, label=f'{nbeds} bed [{len(prices)}]')
     ax.legend()
 
   plt.show()

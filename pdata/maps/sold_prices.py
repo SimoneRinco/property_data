@@ -20,17 +20,6 @@ def sold_prices_map(data, min_date=None):
     if min_date is None or r.date >= min_date:
       markers_data[r.ptype][r.bedrooms if r.bedrooms is not None else 0].append(r.coordinates)
 
-  def ptype2mcolor(ptype):
-    if ptype == PropertyType.FLAT:
-      return MarkerColor.BROWN
-    if ptype == PropertyType.TERRACED:
-      return MarkerColor.ORANGE
-    if ptype == PropertyType.SEMI_DETACHED:
-      return MarkerColor.BLUE
-    if ptype == PropertyType.DETACHED:
-      return MarkerColor.GREEN
-    raise RuntimeError("unknown property type")
-
   markers = []
   for prop_key, prop_data in markers_data.items():
     for bed_key, bed_data in prop_data.items():

@@ -1,6 +1,7 @@
 from pdata.coordinates import LatLng
 from pdata.maps.mkey import MKEY
-from pdata.req import get as req_get
+from pdata.enums import PropertyType
+from pdata.req.req import get as req_get
 
 from collections import namedtuple
 from enum import Enum
@@ -80,12 +81,23 @@ def gen_static(map_size, out_file, **params):
     out_file.write(chunk)
 
 
+def ptype2mcolor(ptype):
+  if ptype == PropertyType.FLAT:
+    return MarkerColor.BROWN
+  if ptype == PropertyType.TERRACED:
+    return MarkerColor.ORANGE
+  if ptype == PropertyType.SEMI_DETACHED:
+    return MarkerColor.BLUE
+  if ptype == PropertyType.DETACHED:
+    return MarkerColor.GREEN
+  raise RuntimeError("unknown property type")
+
+
 def gen_static_from_markers(map_size, out_file, markers):
   params = {'markers' : []}
   for m in markers:
     params['markers'].append(m.encode())
   gen_static(map_size, out_file, **params)
-
 
 if __name__ == '__main__':
   m1 = Marker(label='A', locations=[LatLng(lat=51.40513200, lng=-1.29996670)])
