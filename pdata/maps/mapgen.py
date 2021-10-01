@@ -30,6 +30,8 @@ MapSize = namedtuple('MapSize', 'x y')
 class Marker:
   
   def __init__(self, size=MarkerSize.DEFAULT, color=MarkerColor.RED, label=None, locations=None):
+    """locations: iterable of LatLng
+    """
     self.size = size
     self.color = color
     if label is not None:
@@ -41,6 +43,8 @@ class Marker:
       if not label.isalnum():
         raise RuntimeError(f'Marker labels must have alphanumeric')
       self.label = label
+    else:
+      self.label = None
     self.locations = locations
 
   def add_location(l):

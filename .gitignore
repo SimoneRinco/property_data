@@ -6,3 +6,5 @@ __pycache__/
 *egg-info/
 # For now, json files just contain temporary data
 *.json
+.vs/
+*.sln
