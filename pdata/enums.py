@@ -46,3 +46,14 @@ def property_type2prettystr(ptype):
   if ptype == PropertyType.DETACHED:
     return 'Detached'
   raise RuntimeError(f'Invalid property type {ptype}')
+
+def property_type2short(ptype):
+  if ptype == PropertyType.FLAT:
+    return 'F'
+  if ptype == PropertyType.TERRACED:
+    return 'T'
+  if ptype == PropertyType.SEMI_DETACHED:
+    return 'SD'
+  if ptype == PropertyType.DETACHED:
+    return 'D'
+  raise RuntimeError(f'Invalid property type {ptype}')

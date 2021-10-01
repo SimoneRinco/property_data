@@ -10,7 +10,7 @@ import json
 import os
 
 """Example on how to use the "prices" API, or visualise
-prices previously downloaded using the API
+prices previously downloaded or retrieved using the API
 """
 
 if __name__ == '__main__':
@@ -30,7 +30,7 @@ if __name__ == '__main__':
   centroids_pc = [c + f'\n({chr(65 + i)})' for i, c in enumerate(centroids_pc)]
   
   # Load or get all the prices from Property Data
-  prices_filename = 'test_datasets/prices/RG14/20211001.json'
+  prices_filename = 'test_datasets/prices/RG14/2021-10-01.json'
   if os.path.exists(prices_filename):
     with open(prices_filename) as f:
       prices = Prices.load(f)
@@ -41,9 +41,9 @@ if __name__ == '__main__':
       json.dump(j, f)
     prices = Prices.Data(j)
 
-  ptypes = [PropertyType.SEMI_DETACHED]
-  beds = [3]
-  # Fill cluster of prices for 3 bedrooms, semi detached houses
+  ptypes = [PropertyType.SEMI_DETACHED, PropertyType.DETACHED]
+  beds = [3, 4]
+  # Fill cluster of prices for the specified bedrooms and type of houses
   data = [[] for _ in range(nclusters)]
   for price in prices.raw_items:
     if price.ptype in ptypes and price.bedrooms in beds:
@@ -67,6 +67,3 @@ if __name__ == '__main__':
     markers = [Marker(label=chr(65 + i), locations=[loc]) for i, loc in enumerate(centroids)]
     with open(map_filename, 'wb') as f:
       gen_static_from_markers(map_size=MapSize(1200, 1200), out_file=f, markers=markers)
-
-
-
