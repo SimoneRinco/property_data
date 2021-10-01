@@ -1,5 +1,3 @@
-from pdata.postcode import sanitize as postcode_sanitize
-
 from collections import namedtuple
 import math
 
@@ -66,33 +64,6 @@ def distance(p1, p2):
   return ret
 
 
-class PostcodeFinder(object):
-
-  def __init__(self):
-    self.postcodes = {}
-
-  def load_csv(self, reader):
-    for line in reader:
-      if line['In Use?'] == "Yes":
-        self.postcodes[postcode_sanitize(line['Postcode'])] = \
-          LatLng(
-            lat=float(line['Latitude']),
-            lng=float(line['Longitude'])
-            )
-
-  def find(self, lat_lng):
-    ret = ''
-    min_dist = 1e100
-
-    for postcode, postcode_center in self.postcodes.items():
-      d = distance(lat_lng, postcode_center)
-      if d < min_dist:
-        min_dist = d
-        ret = postcode
-
-    return ret, min_dist
-
-
 def get_centroid(latlng):
 
   size = len(latlng)
@@ -116,6 +87,17 @@ def get_centroid(latlng):
   return to_latlng(cart_coo)
 
 
+def find_cluster(centroids, latlng):
+  ret = 0
+  min_dist = distance(centroids[0], latlng)
+  for i, c in enumerate(centroids[1:], start=1):
+    d = distance(c, latlng)
+    if d < min_dist:
+      min_dist = d
+      ret = i
+  return ret
+
+
 def kmeans(latlng, nclusters, max_iter=10):
   """latlng: iterable of LatLng
   Returns a list of nclusters elements containing the centroids (LatLng)
@@ -132,16 +114,6 @@ def kmeans(latlng, nclusters, max_iter=10):
   for i in range(nclusters - 1):
     centroids[i] = get_centroid(latlng[s*i : s*(i+1)])
     centroids[-1] = get_centroid(latlng[s*(nclusters-1) :])
-
-  def find_cluster(centroids_, ll_):
-    ret = 0
-    min_dist = distance(centroids_[0], ll_)
-    for i, c in enumerate(centroids_[1:], start=1):
-      d = distance(c, ll)
-      if d < min_dist:
-        min_dist = d
-        ret = i
-    return ret
 
   # first assignment
   cluster_ids = [-1 for _ in range(npoints)]
@@ -170,15 +142,13 @@ if __name__ == "__main__":
 
   import csv
 
-  postcode_finder = PostcodeFinder()
+  postcodes = Postcodes()
   with open("postcodes/RG14.csv") as f:
-    r = csv.DictReader(f)
-    postcode_finder.load_csv(r)
+    postcode_finder.load_csv(f)
 
+  print(postcodes.find(LatLng(51.40647170213218, -1.3269289786844287)))
 
-  print(postcode_finder.find(LatLng(51.40647170213218, -1.3269289786844287)))
-
-  centroids = kmeans(list(postcode_finder.postcodes.values()), nclusters=16)
+  centroids = kmeans(list(postcodes.postcodes.values()), nclusters=16)
 
   print(centroids)
   
