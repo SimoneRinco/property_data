@@ -30,28 +30,26 @@ if __name__ == '__main__':
           for b in beds:
             if p.ptype == pt and p.bedrooms == b:
               prices[(pt, b)].append(p.price)
-    prices = {k : (len(v), sum(v) / len(v)) for k, v in prices.items()}
     all_prices.append(prices)
 
   fig = plt.figure()
-  gs = GridSpec(nrows=len(ptypes), ncols=len(beds) * 2)
+  gs = GridSpec(nrows=len(ptypes) + 1, ncols=len(beds))
   for ip, p in enumerate(ptypes):
     for ib, b in enumerate(beds):
-      col = ib*2
-      ax0 = fig.add_subplot(gs[ip, col])
-      y = [price[(p, b)][1] for price in all_prices]
-      ax0.plot(all_dates, y, '.-')
+      ax0 = fig.add_subplot(gs[ip, ib])
+      y = [prices[(p, b)] for prices in all_prices]
+      ax0.boxplot(y, labels=all_dates)
       ax0.set_title(f"{property_type2short(p)}, {b} beds (prices)")
-      ax0.xaxis.set_major_locator(mdates.DayLocator())
-      ax1 = fig.add_subplot(gs[ip, col + 1])
-      y = [price[(p, b)][0] for price in all_prices]
-      ax1.plot(all_dates, y, 'r.-')
-      ax1.set_title(f"{property_type2short(p)}, {b} beds (#properties)")
-      ax1.xaxis.set_major_locator(mdates.DayLocator())
 
-  plt.show()
-    
+  ax1 = fig.add_subplot(gs[len(ptypes), :])
+  ax1.xaxis.set_major_locator(mdates.DayLocator())
+  ax1.xaxis.set_major_formatter(mdates.DateFormatter('%d-%m-%y'))
+  legend = []
+  for p in ptypes:
+    for b in beds:
+      n = [len(prices[(p, b)]) for prices in all_prices]
+      ax1.plot(all_dates, n)
+      legend.append(f"{property_type2short(p)}, {b} beds")
+  ax1.legend(legend)
 
-
-
-
+  plt.show()    
