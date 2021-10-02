@@ -1,10 +1,11 @@
 from pdata.pdkey import PKEY
 from pdata.postcode import sanitize_postcode
-from pdata.req.req import get_json
+from pdata.req.req import get_json, MIN_TIME_BETWEEN_API_CALLS
 from pdata.coordinates import LatLng, dict2coo
 from pdata.enums import PropertyType, str2property_type, property_type2str
 
 import json
+import time
 
 class Prices(object):
 
@@ -33,7 +34,7 @@ class Prices(object):
       self.points_analysed = int(d['data']['points_analysed'])
 
   @staticmethod
-  def req(postcode, ptype=None, nbedrooms=None, npoints=100):
+  def req(postcode, ptype=None, nbedrooms=None, npoints=100, sleep=True):
     postcode = sanitize_postcode(postcode)
     params = {
       'key' : PKEY,
@@ -47,7 +48,10 @@ class Prices(object):
       params['bedrooms'] = str(nbedrooms)
 
     url ='https://api.propertydata.co.uk/prices'
-    return get_json(url, **params)
+    ret = get_json(url, **params)
+    if sleep:
+      time.sleep(MIN_TIME_BETWEEN_API_CALLS)
+    return ret
   
 
   @staticmethod

@@ -1,5 +1,5 @@
 from pdata.plots.colors import get_color
-from pdata.req.sold_prices import Data
+from pdata.req.sold_prices import SoldPrices
 from pdata.enums import PROPERTY_TYPES, property_type2prettystr
 
 import matplotlib.pyplot as plt

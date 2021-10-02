@@ -12,10 +12,12 @@ import math
 
 if __name__ == '__main__':
 
+  postcode = "RG14"
+
   ptypes = [PropertyType.SEMI_DETACHED, PropertyType.DETACHED]
   beds = [3, 4, 5]
 
-  dirname = 'test_datasets/prices/RG14'
+  dirname = os.path.join('test_datasets', 'prices', postcode)
   dir = os.listdir(dirname)
   all_dates = []
   all_prices = []

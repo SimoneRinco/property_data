@@ -10,7 +10,11 @@ CartesianCoo = namedtuple('CartesianCoo', ['x', 'y', 'z'])
 def dict2coo(d):
   """It looks for 'lat' and 'lng' keywords in the dict
   """
-  return LatLng(lat=float(d['lat']), lng=float(d['lng']))
+  lat = d['lat']
+  lng = d['lng']
+  if lat is None or lng is None:
+    return None
+  return LatLng(lat=float(lat), lng=float(lng))
 
 
 def to_radiants(degrees):

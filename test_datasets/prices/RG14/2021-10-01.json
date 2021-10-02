@@ -1,1 +1,3627 @@
-{"status": "success", "postcode": "RG14", "postcode_type": "district", "url": "https://propertydata.co.uk/draw?input=RG14", "data": {"points_analysed": 514, "average": 308186, "70pc_range": [190000, 500000], "80pc_range": [165000, 575000], "90pc_range": [145000, 675000], "100pc_range": [66400, 2250000], "raw_data": [{"price": 66400, "lat": "51.39600000", "lng": "-1.31900000", "bedrooms": 2, "type": "flat"}, {"price": 375000, "lat": "51.40545200", "lng": "-1.31329700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 380000, "lat": "51.39591200", "lng": "-1.31532600", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 380000, "lat": "51.40181400", "lng": "-1.32615400", "bedrooms": 2, "type": "flat"}, {"price": 379950, "lat": "51.39334900", "lng": "-1.33856300", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 375000, "lat": "51.38600000", "lng": "-1.31700000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 375000, "lat": "51.40937400", "lng": "-1.34386200", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 375000, "lat": "51.40556000", "lng": "-1.30226000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 375000, "lat": "51.40658600", "lng": "-1.29443500", "bedrooms": 3, "type": "terraced_house"}, {"price": 375000, "lat": "51.39093300", "lng": "-1.33136400", "bedrooms": 3, "type": "detached_house"}, {"price": 375000, "lat": "51.40900700", "lng": "-1.33835400", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 375000, "lat": "51.40161500", "lng": "-1.32708100", "bedrooms": 2, "type": "flat"}, {"price": 375000, "lat": "51.38875900", "lng": "-1.33668300", "bedrooms": 2, "type": "detached_house"}, {"price": 375000, "lat": "51.39711900", "lng": "-1.30028200", "bedrooms": 2, "type": "flat"}, {"price": 375000, "lat": "51.39325700", "lng": "-1.33847700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 375000, "lat": "51.40948100", "lng": "-1.32168000", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 385000, "lat": "51.41134600", "lng": "-1.30080400", "bedrooms": 3, "type": "detached_house"}, {"price": 375000, "lat": "51.37925300", "lng": "-1.35151700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 370000, "lat": "51.39655000", "lng": "-1.31484000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 369950, "lat": "51.39215900", "lng": "-1.30554600", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 368900, "lat": "51.39644000", "lng": "-1.30858000", "bedrooms": 2, "type": "flat"}, {"price": 365000, "lat": "51.39433600", "lng": "-1.33832800", "bedrooms": 3, "type": "terraced_house"}, {"price": 365000, "lat": "51.39900200", "lng": "-1.33939500", "bedrooms": 3, "type": "detached_house"}, {"price": 365000, "lat": "51.39583200", "lng": "-1.31320000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 365000, "lat": "51.39648000", "lng": "-1.30949400", "bedrooms": 2, "type": "flat"}, {"price": 360000, "lat": "51.39917000", "lng": "-1.29028000", "bedrooms": 2, "type": "flat"}, {"price": 360000, "lat": "51.40110200", "lng": "-1.32577200", "bedrooms": 2, "type": "flat"}, {"price": 360000, "lat": "51.41013000", "lng": "-1.30775200", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 360000, "lat": "51.40400000", "lng": "-1.30000000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 357500, "lat": "51.39861100", "lng": "-1.29136600", "bedrooms": 2, "type": "flat"}, {"price": 380000, "lat": "51.39396300", "lng": "-1.33693000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 385000, "lat": "51.37749500", "lng": "-1.35130500", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 350000, "lat": "51.40952300", "lng": "-1.30786000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 400000, "lat": "51.41104200", "lng": "-1.34097300", "bedrooms": 4, "type": "detached_house"}, {"price": 420000, "lat": "51.39655500", "lng": "-1.29324700", "bedrooms": 3, "type": "terraced_house"}, {"price": 418500, "lat": "51.41672000", "lng": "-1.31975000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 415000, "lat": "51.40186700", "lng": "-1.32807500", "bedrooms": 2, "type": "flat"}, {"price": 415000, "lat": "51.41051500", "lng": "-1.30147800", "bedrooms": 3, "type": "detached_house"}, {"price": 415000, "lat": "51.39721800", "lng": "-1.30170000", "bedrooms": 3, "type": "flat"}, {"price": 410000, "lat": "51.41672000", "lng": "-1.31975000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 402000, "lat": "51.41672000", "lng": "-1.31975000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 400000, "lat": "51.40075600", "lng": "-1.32668200", "bedrooms": 2, "type": "terraced_house"}, {"price": 400000, "lat": "51.39879600", "lng": "-1.32727500", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 400000, "lat": "51.38621700", "lng": "-1.34330200", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 400000, "lat": "51.40500000", "lng": "-1.32400000", "bedrooms": 3, "type": "terraced_house"}, {"price": 400000, "lat": "51.40342700", "lng": "-1.29704600", "bedrooms": 3, "type": "detached_house"}, {"price": 400000, "lat": "51.39610800", "lng": "-1.34176600", "bedrooms": 3, "type": "terraced_house"}, {"price": 400000, "lat": "51.40674900", "lng": "-1.33261800", "bedrooms": 2, "type": "flat"}, {"price": 385000, "lat": "51.39929000", "lng": "-1.32607000", "bedrooms": 2, "type": "flat"}, {"price": 400000, "lat": "51.40549400", "lng": "-1.32547200", "bedrooms": null, "type": "detached_house"}, {"price": 400000, "lat": "51.40989500", "lng": "-1.29392400", "bedrooms": 3, "type": "detached_house"}, {"price": 400000, "lat": "51.40962900", "lng": "-1.31386100", "bedrooms": 2, "type": "flat"}, {"price": 400000, "lat": "51.39741800", "lng": "-1.29223200", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 399950, "lat": "51.39125000", "lng": "-1.32044000", "bedrooms": 3, "type": "detached_house"}, {"price": 399950, "lat": "51.41086800", "lng": "-1.33671700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 395000, "lat": "51.39632700", "lng": "-1.34249200", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 395000, "lat": "51.39978800", "lng": "-1.32556100", "bedrooms": 2, "type": "flat"}, {"price": 395000, "lat": "51.40352000", "lng": "-1.29776000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 395000, "lat": "51.39711900", "lng": "-1.30028200", "bedrooms": 2, "type": "flat"}, {"price": 390000, "lat": "51.39142200", "lng": "-1.33026400", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 390000, "lat": "51.40398600", "lng": "-1.32274100", "bedrooms": 2, "type": "flat"}, {"price": 385000, "lat": "51.39184900", "lng": "-1.31711400", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 355000, "lat": "51.40199700", "lng": "-1.32699500", "bedrooms": 2, "type": "flat"}, {"price": 350000, "lat": "51.39928800", "lng": "-1.29163400", "bedrooms": 2, "type": "flat"}, {"price": 425000, "lat": "51.38750000", "lng": "-1.31274500", "bedrooms": 3, "type": "detached_house"}, {"price": 310000, "lat": "51.40019900", "lng": "-1.33288700", "bedrooms": 3, "type": "terraced_house"}, {"price": 325000, "lat": "51.41229000", "lng": "-1.30410300", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 320000, "lat": "51.39262700", "lng": "-1.31707200", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 320000, "lat": "51.41242600", "lng": "-1.30410900", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 320000, "lat": "51.40605600", "lng": "-1.29551600", "bedrooms": 4, "type": "terraced_house"}, {"price": 320000, "lat": "51.39728400", "lng": "-1.30021800", "bedrooms": 2, "type": "flat"}, {"price": 318000, "lat": "51.39716000", "lng": "-1.30102000", "bedrooms": 2, "type": "flat"}, {"price": 316000, "lat": "51.39966000", "lng": "-1.32418000", "bedrooms": 2, "type": "terraced_house"}, {"price": 316000, "lat": "51.39651000", "lng": "-1.29260000", "bedrooms": 2, "type": "terraced_house"}, {"price": 315000, "lat": "51.39558000", "lng": "-1.32358300", "bedrooms": 2, "type": "flat"}, {"price": 315000, "lat": "51.38710000", "lng": "-1.32118900", "bedrooms": 3, "type": "detached_house"}, {"price": 315000, "lat": "51.39947700", "lng": "-1.31691200", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 312500, "lat": "51.39928800", "lng": "-1.29163400", "bedrooms": 2, "type": "flat"}, {"price": 310000, "lat": "51.40810000", "lng": "-1.32849000", "bedrooms": 2, "type": "flat"}, {"price": 310000, "lat": "51.41151400", "lng": "-1.30870900", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 325000, "lat": "51.39948000", "lng": "-1.31693000", "bedrooms": 3, "type": "terraced_house"}, {"price": 310000, "lat": "51.39978800", "lng": "-1.32556100", "bedrooms": 2, "type": "flat"}, {"price": 309995, "lat": "51.41034000", "lng": "-1.31041000", "bedrooms": 3, "type": "terraced_house"}, {"price": 308000, "lat": "51.39988000", "lng": "-1.29683000", "bedrooms": 2, "type": "flat"}, {"price": 300000, "lat": "51.40819900", "lng": "-1.34040400", "bedrooms": 2, "type": "detached_house"}, {"price": 300000, "lat": "51.41059200", "lng": "-1.34064300", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 300000, "lat": "51.39917000", "lng": "-1.29028000", "bedrooms": 2, "type": "flat"}, {"price": 300000, "lat": "51.37981000", "lng": "-1.34940000", "bedrooms": 2, "type": "terraced_house"}, {"price": 300000, "lat": "51.40548000", "lng": "-1.31053000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 300000, "lat": "51.39722900", "lng": "-1.33885100", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 300000, "lat": "51.41224600", "lng": "-1.29577200", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 300000, "lat": "51.40736200", "lng": "-1.30835100", "bedrooms": 3, "type": "terraced_house"}, {"price": 300000, "lat": "51.39064700", "lng": "-1.32358200", "bedrooms": 2, "type": "detached_house"}, {"price": 300000, "lat": "51.39977100", "lng": "-1.33265700", "bedrooms": 2, "type": "terraced_house"}, {"price": 325000, "lat": "51.40754000", "lng": "-1.31535000", "bedrooms": 3, "type": "terraced_house"}, {"price": 325000, "lat": "51.39386800", "lng": "-1.31715000", "bedrooms": 2, "type": "terraced_house"}, {"price": 350000, "lat": "51.40983100", "lng": "-1.30892100", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 340000, "lat": "51.41143000", "lng": "-1.34033000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 350000, "lat": "51.40384700", "lng": "-1.32367100", "bedrooms": 2, "type": "flat"}, {"price": 350000, "lat": "51.39700000", "lng": "-1.30150800", "bedrooms": 2, "type": "flat"}, {"price": 350000, "lat": "51.38938500", "lng": "-1.31184500", "bedrooms": 3, "type": "detached_house"}, {"price": 350000, "lat": "51.40657000", "lng": "-1.30428000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 350000, "lat": "51.40399900", "lng": "-1.32224700", "bedrooms": 2, "type": "flat"}, {"price": 350000, "lat": "51.39288600", "lng": "-1.31296600", "bedrooms": 4, "type": "terraced_house"}, {"price": 350000, "lat": "51.41143000", "lng": "-1.34032700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 349950, "lat": "51.40539500", "lng": "-1.29697500", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 347500, "lat": "51.40350600", "lng": "-1.29777500", "bedrooms": 3, "type": "detached_house"}, {"price": 345000, "lat": "51.41158300", "lng": "-1.33401400", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 345000, "lat": "51.39106000", "lng": "-1.31876000", "bedrooms": 3, "type": "detached_house"}, {"price": 345000, "lat": "51.39215900", "lng": "-1.30558000", "bedrooms": 3, "type": "terraced_house"}, {"price": 343000, "lat": "51.40752600", "lng": "-1.29741100", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 340000, "lat": "51.41028300", "lng": "-1.31041000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 325000, "lat": "51.41144300", "lng": "-1.31262700", "bedrooms": 2, "type": "flat"}, {"price": 340000, "lat": "51.39600000", "lng": "-1.30100000", "bedrooms": 2, "type": "flat"}, {"price": 340000, "lat": "51.39917000", "lng": "-1.29028000", "bedrooms": 2, "type": "flat"}, {"price": 339999, "lat": "51.41137000", "lng": "-1.33965000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 338000, "lat": "51.39682200", "lng": "-1.30924700", "bedrooms": 2, "type": "flat"}, {"price": 330000, "lat": "51.40465500", "lng": "-1.32227800", "bedrooms": 3, "type": "terraced_house"}, {"price": 330000, "lat": "51.39159800", "lng": "-1.30886000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 325000, "lat": "51.39471700", "lng": "-1.32471300", "bedrooms": 2, "type": "terraced_house"}, {"price": 325000, "lat": "51.40745100", "lng": "-1.30122700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 325000, "lat": "51.41234300", "lng": "-1.29551100", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 325000, "lat": "51.39551500", "lng": "-1.32222900", "bedrooms": 2, "type": "flat"}, {"price": 325000, "lat": "51.39682400", "lng": "-1.30924700", "bedrooms": 2, "type": "flat"}, {"price": 325000, "lat": "51.40386500", "lng": "-1.32253400", "bedrooms": 2, "type": "flat"}, {"price": 325000, "lat": "51.40008500", "lng": "-1.33422000", "bedrooms": 3, "type": "terraced_house"}, {"price": 425000, "lat": "51.38600600", "lng": "-1.30977300", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 425000, "lat": "51.39687300", "lng": "-1.31153700", "bedrooms": 3, "type": "terraced_house"}, {"price": 300000, "lat": "51.40621800", "lng": "-1.32910600", "bedrooms": 2, "type": "flat"}, {"price": 575000, "lat": "51.39569000", "lng": "-1.31544000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 650000, "lat": "51.41031000", "lng": "-1.31454000", "bedrooms": 4, "type": "detached_house"}, {"price": 650000, "lat": "51.39461000", "lng": "-1.31019000", "bedrooms": 5, "type": "semi-detached_house"}, {"price": 650000, "lat": "51.39297800", "lng": "-1.32315500", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 625000, "lat": "51.39978800", "lng": "-1.32556100", "bedrooms": 2, "type": "flat"}, {"price": 620000, "lat": "51.39309600", "lng": "-1.32246800", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 600000, "lat": "51.39159300", "lng": "-1.31404300", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 600000, "lat": "51.39800000", "lng": "-1.32600000", "bedrooms": 5, "type": "terraced_house"}, {"price": 599000, "lat": "51.41669000", "lng": "-1.31978000", "bedrooms": 4, "type": "detached_house"}, {"price": 595000, "lat": "51.38791200", "lng": "-1.33342600", "bedrooms": 4, "type": "detached_house"}, {"price": 595000, "lat": "51.38261000", "lng": "-1.34483300", "bedrooms": 4, "type": "detached_house"}, {"price": 590000, "lat": "51.39978800", "lng": "-1.32556100", "bedrooms": 2, "type": "flat"}, {"price": 585000, "lat": "51.37339000", "lng": "-1.34582700", "bedrooms": 3, "type": "terraced_house"}, {"price": 585000, "lat": "51.40736700", "lng": "-1.33431500", "bedrooms": 3, "type": "detached_house"}, {"price": 575000, "lat": "51.37544700", "lng": "-1.35276300", "bedrooms": 5, "type": "detached_house"}, {"price": 650000, "lat": "51.39397000", "lng": "-1.33663000", "bedrooms": 5, "type": "detached_house"}, {"price": 575000, "lat": "51.38984900", "lng": "-1.32298200", "bedrooms": 3, "type": "detached_house"}, {"price": 575000, "lat": "51.37593800", "lng": "-1.35114900", "bedrooms": 4, "type": "detached_house"}, {"price": 575000, "lat": "51.38725600", "lng": "-1.32623600", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 575000, "lat": "51.39070400", "lng": "-1.31165300", "bedrooms": 4, "type": "detached_house"}, {"price": 575000, "lat": "51.41217200", "lng": "-1.34091900", "bedrooms": 4, "type": "detached_house"}, {"price": 560000, "lat": "51.39667100", "lng": "-1.29263400", "bedrooms": 4, "type": "detached_house"}, {"price": 559000, "lat": "51.39648000", "lng": "-1.29262000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 557000, "lat": "51.39648000", "lng": "-1.29262000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 551000, "lat": "51.39651000", "lng": "-1.29260000", "bedrooms": 4, "type": "terraced_house"}, {"price": 550000, "lat": "51.40615000", "lng": "-1.33643500", "bedrooms": 3, "type": "detached_house"}, {"price": 550000, "lat": "51.38691200", "lng": "-1.33226000", "bedrooms": 5, "type": "semi-detached_house"}, {"price": 550000, "lat": "51.39679600", "lng": "-1.31814500", "bedrooms": 4, "type": "detached_house"}, {"price": 550000, "lat": "51.38180500", "lng": "-1.34587000", "bedrooms": 4, "type": "detached_house"}, {"price": 650000, "lat": "51.38228200", "lng": "-1.34375000", "bedrooms": 4, "type": "detached_house"}, {"price": 659950, "lat": "51.41108600", "lng": "-1.34742200", "bedrooms": 5, "type": "detached_house"}, {"price": 540000, "lat": "51.41147100", "lng": "-1.31261600", "bedrooms": 5, "type": "semi-detached_house"}, {"price": 800000, "lat": "51.40450300", "lng": "-1.33453900", "bedrooms": 5, "type": "semi-detached_house"}, {"price": 1750000, "lat": "51.41558600", "lng": "-1.33379800", "bedrooms": 6, "type": "detached_house"}, {"price": 1500000, "lat": "51.43326100", "lng": "-1.30191800", "bedrooms": 5, "type": "detached_house"}, {"price": 1250000, "lat": "51.42563000", "lng": "-1.29489000", "bedrooms": 6, "type": "detached_house"}, {"price": 1150000, "lat": "51.41109500", "lng": "-1.34739300", "bedrooms": 6, "type": "detached_house"}, {"price": 1100000, "lat": "51.37406200", "lng": "-1.34297800", "bedrooms": 4, "type": "detached_house"}, {"price": 1100000, "lat": "51.40792400", "lng": "-1.34194600", "bedrooms": 5, "type": "detached_house"}, {"price": 1000000, "lat": "51.42100000", "lng": "-1.32903000", "bedrooms": 5, "type": "detached_house"}, {"price": 900000, "lat": "51.40932000", "lng": "-1.33050000", "bedrooms": 4, "type": "detached_house"}, {"price": 850000, "lat": "51.38231600", "lng": "-1.34875800", "bedrooms": 5, "type": "detached_house"}, {"price": 850000, "lat": "51.37405000", "lng": "-1.34298000", "bedrooms": 4, "type": "detached_house"}, {"price": 850000, "lat": "51.42505100", "lng": "-1.29788500", "bedrooms": 5, "type": "detached_house"}, {"price": 825000, "lat": "51.38479600", "lng": "-1.32622100", "bedrooms": 4, "type": "detached_house"}, {"price": 800000, "lat": "51.44539000", "lng": "-1.32200000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 800000, "lat": "51.41055000", "lng": "-1.31121000", "bedrooms": 4, "type": "detached_house"}, {"price": 670000, "lat": "51.41451000", "lng": "-1.32455000", "bedrooms": 4, "type": "detached_house"}, {"price": 785000, "lat": "51.39162300", "lng": "-1.32612200", "bedrooms": 4, "type": "detached_house"}, {"price": 765000, "lat": "51.38764000", "lng": "-1.33987000", "bedrooms": 3, "type": "detached_house"}, {"price": 750000, "lat": "51.38502200", "lng": "-1.32126100", "bedrooms": null, "type": "detached_house"}, {"price": 700000, "lat": "51.40755200", "lng": "-1.30015700", "bedrooms": 4, "type": "detached_house"}, {"price": 700000, "lat": "51.37377600", "lng": "-1.34959100", "bedrooms": 4, "type": "detached_house"}, {"price": 700000, "lat": "51.41296000", "lng": "-1.31508000", "bedrooms": 5, "type": "detached_house"}, {"price": 699000, "lat": "51.41669000", "lng": "-1.31978000", "bedrooms": 5, "type": "detached_house"}, {"price": 685000, "lat": "51.41669000", "lng": "-1.31978000", "bedrooms": 5, "type": "detached_house"}, {"price": 680000, "lat": "51.39077800", "lng": "-1.32317800", "bedrooms": 6, "type": "terraced_house"}, {"price": 679000, "lat": "51.41451000", "lng": "-1.32455000", "bedrooms": 4, "type": "detached_house"}, {"price": 675000, "lat": "51.39311300", "lng": "-1.32238200", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 675000, "lat": "51.39742500", "lng": "-1.30095900", "bedrooms": 3, "type": "flat"}, {"price": 675000, "lat": "51.39429400", "lng": "-1.32253700", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 550000, "lat": "51.39651000", "lng": "-1.29260000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 535000, "lat": "51.38908000", "lng": "-1.33278400", "bedrooms": 4, "type": "terraced_house"}, {"price": 425000, "lat": "51.39390100", "lng": "-1.33868300", "bedrooms": 3, "type": "detached_house"}, {"price": 450000, "lat": "51.40532400", "lng": "-1.30085900", "bedrooms": 4, "type": "detached_house"}, {"price": 465000, "lat": "51.39855500", "lng": "-1.33406300", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 450000, "lat": "51.39208700", "lng": "-1.32431600", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 450000, "lat": "51.41051500", "lng": "-1.30147800", "bedrooms": 3, "type": "detached_house"}, {"price": 450000, "lat": "51.39722000", "lng": "-1.31379900", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 450000, "lat": "51.39615000", "lng": "-1.31261000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 450000, "lat": "51.39486900", "lng": "-1.33018400", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 450000, "lat": "51.40718000", "lng": "-1.33484000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 450000, "lat": "51.41431000", "lng": "-1.31453000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 450000, "lat": "51.41612600", "lng": "-1.32968100", "bedrooms": 3, "type": "detached_house"}, {"price": 450000, "lat": "51.39713600", "lng": "-1.31100900", "bedrooms": 3, "type": "terraced_house"}, {"price": 450000, "lat": "51.38766500", "lng": "-1.32272100", "bedrooms": 3, "type": "detached_house"}, {"price": 450000, "lat": "51.40733200", "lng": "-1.31576900", "bedrooms": 3, "type": "terraced_house"}, {"price": 450000, "lat": "51.40613400", "lng": "-1.32874500", "bedrooms": 2, "type": "flat"}, {"price": 445000, "lat": "51.39228800", "lng": "-1.31288400", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 475000, "lat": "51.39151800", "lng": "-1.31723100", "bedrooms": 3, "type": "detached_house"}, {"price": 445000, "lat": "51.38489200", "lng": "-1.33775000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 440000, "lat": "51.39259000", "lng": "-1.30899000", "bedrooms": 4, "type": "detached_house"}, {"price": 435000, "lat": "51.40195800", "lng": "-1.32818800", "bedrooms": 2, "type": "flat"}, {"price": 435000, "lat": "51.39689000", "lng": "-1.31182800", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 435000, "lat": "51.38599100", "lng": "-1.30982200", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 430000, "lat": "51.39100000", "lng": "-1.31900000", "bedrooms": 3, "type": "detached_house"}, {"price": 430000, "lat": "51.39253000", "lng": "-1.30907000", "bedrooms": 4, "type": "detached_house"}, {"price": 429950, "lat": "51.41880700", "lng": "-1.32789600", "bedrooms": 3, "type": "terraced_house"}, {"price": 427500, "lat": "51.39822300", "lng": "-1.29046300", "bedrooms": 3, "type": "flat"}, {"price": 425000, "lat": "51.39972300", "lng": "-1.33314600", "bedrooms": 3, "type": "detached_house"}, {"price": 425000, "lat": "51.39630800", "lng": "-1.31252000", "bedrooms": 3, "type": "detached_house"}, {"price": 425000, "lat": "51.41107900", "lng": "-1.30858600", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 425000, "lat": "51.40738200", "lng": "-1.31599100", "bedrooms": 3, "type": "detached_house"}, {"price": 470000, "lat": "51.40848500", "lng": "-1.33904200", "bedrooms": 5, "type": "semi-detached_house"}, {"price": 475000, "lat": "51.39014000", "lng": "-1.33708800", "bedrooms": 2, "type": "detached_house"}, {"price": 535000, "lat": "51.39651000", "lng": "-1.29260000", "bedrooms": 3, "type": "terraced_house"}, {"price": 500000, "lat": "51.39231000", "lng": "-1.33796000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 530000, "lat": "51.39060200", "lng": "-1.30966600", "bedrooms": 4, "type": "detached_house"}, {"price": 525000, "lat": "51.41672000", "lng": "-1.31975000", "bedrooms": 4, "type": "detached_house"}, {"price": 525000, "lat": "51.39667800", "lng": "-1.33336400", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 525000, "lat": "51.40629500", "lng": "-1.33674400", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 525000, "lat": "51.41146300", "lng": "-1.33482200", "bedrooms": 4, "type": "detached_house"}, {"price": 525000, "lat": "51.39350000", "lng": "-1.33954100", "bedrooms": 4, "type": "terraced_house"}, {"price": 525000, "lat": "51.39667800", "lng": "-1.29273600", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 525000, "lat": "51.41171600", "lng": "-1.29921500", "bedrooms": 4, "type": "detached_house"}, {"price": 525000, "lat": "51.41007900", "lng": "-1.30772100", "bedrooms": 4, "type": "detached_house"}, {"price": 525000, "lat": "51.38921300", "lng": "-1.31007100", "bedrooms": 4, "type": "detached_house"}, {"price": 520000, "lat": "51.39145500", "lng": "-1.32595600", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 510000, "lat": "51.39667000", "lng": "-1.29263500", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 500000, "lat": "51.40927200", "lng": "-1.29512700", "bedrooms": 4, "type": "detached_house"}, {"price": 500000, "lat": "51.41078800", "lng": "-1.33724700", "bedrooms": 3, "type": "detached_house"}, {"price": 475000, "lat": "51.37434000", "lng": "-1.34929500", "bedrooms": 3, "type": "detached_house"}, {"price": 500000, "lat": "51.40186800", "lng": "-1.32807500", "bedrooms": 2, "type": "flat"}, {"price": 500000, "lat": "51.39142200", "lng": "-1.34117700", "bedrooms": 3, "type": "detached_house"}, {"price": 500000, "lat": "51.38337300", "lng": "-1.31980900", "bedrooms": null, "type": "detached_house"}, {"price": 500000, "lat": "51.39482900", "lng": "-1.31699500", "bedrooms": 5, "type": "detached_house"}, {"price": 495000, "lat": "51.39509500", "lng": "-1.32186000", "bedrooms": 4, "type": "terraced_house"}, {"price": 495000, "lat": "51.40603100", "lng": "-1.32871900", "bedrooms": 2, "type": "flat"}, {"price": 495000, "lat": "51.37313700", "lng": "-1.34592700", "bedrooms": 3, "type": "terraced_house"}, {"price": 495000, "lat": "51.39560300", "lng": "-1.31138400", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 495000, "lat": "51.38547100", "lng": "-1.32656100", "bedrooms": 3, "type": "detached_house"}, {"price": 485000, "lat": "51.39366100", "lng": "-1.33998400", "bedrooms": 4, "type": "detached_house"}, {"price": 480000, "lat": "51.39655100", "lng": "-1.31482800", "bedrooms": 6, "type": "semi-detached_house"}, {"price": 480000, "lat": "51.41672000", "lng": "-1.31975000", "bedrooms": 4, "type": "detached_house"}, {"price": 480000, "lat": "51.41400000", "lng": "-1.31100000", "bedrooms": 4, "type": "semi-detached_house"}, {"price": 475000, "lat": "51.40849000", "lng": "-1.32769000", "bedrooms": 4, "type": "detached_house"}, {"price": 300000, "lat": "51.40560000", "lng": "-1.31847700", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 299999, "lat": "51.39817500", "lng": "-1.32705100", "bedrooms": 2, "type": "flat"}, {"price": 90000, "lat": "51.39641400", "lng": "-1.32206000", "bedrooms": 2, "type": "flat"}, {"price": 195000, "lat": "51.39234300", "lng": "-1.32500600", "bedrooms": 1, "type": "flat"}, {"price": 200000, "lat": "51.39653000", "lng": "-1.31320400", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.40185700", "lng": "-1.31490700", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.39540000", "lng": "-1.32461400", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.39776900", "lng": "-1.33789400", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.38600000", "lng": "-1.31300000", "bedrooms": 1, "type": "semi-detached_house"}, {"price": 200000, "lat": "51.40406000", "lng": "-1.32970400", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.40730600", "lng": "-1.32576700", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.39791000", "lng": "-1.32581800", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.39750200", "lng": "-1.33816600", "bedrooms": 1, "type": "terraced_house"}, {"price": 199995, "lat": "51.39531000", "lng": "-1.31707000", "bedrooms": 2, "type": "flat"}, {"price": 199950, "lat": "51.39834400", "lng": "-1.32559000", "bedrooms": 2, "type": "flat"}, {"price": 199950, "lat": "51.39913400", "lng": "-1.32640100", "bedrooms": 2, "type": "flat"}, {"price": 199950, "lat": "51.40390800", "lng": "-1.29858300", "bedrooms": 2, "type": "flat"}, {"price": 195000, "lat": "51.39900000", "lng": "-1.32400000", "bedrooms": 3, "type": "detached_house"}, {"price": 200000, "lat": "51.40964000", "lng": "-1.30713000", "bedrooms": 2, "type": "flat"}, {"price": 190000, "lat": "51.40541000", "lng": "-1.31672300", "bedrooms": 1, "type": "flat"}, {"price": 190000, "lat": "51.39200000", "lng": "-1.32600000", "bedrooms": 2, "type": "flat"}, {"price": 190000, "lat": "51.40083300", "lng": "-1.32937500", "bedrooms": 1, "type": "flat"}, {"price": 190000, "lat": "51.39797100", "lng": "-1.32587500", "bedrooms": 2, "type": "flat"}, {"price": 190000, "lat": "51.41093200", "lng": "-1.32207100", "bedrooms": 1, "type": "semi-detached_house"}, {"price": 189950, "lat": "51.39791000", "lng": "-1.32581800", "bedrooms": 2, "type": "flat"}, {"price": 189950, "lat": "51.39598400", "lng": "-1.32397800", "bedrooms": 1, "type": "flat"}, {"price": 188000, "lat": "51.40746400", "lng": "-1.30845400", "bedrooms": 1, "type": "terraced_house"}, {"price": 188000, "lat": "51.40632400", "lng": "-1.30866500", "bedrooms": 1, "type": "terraced_house"}, {"price": 187500, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 1, "type": "flat"}, {"price": 185000, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 1, "type": "flat"}, {"price": 182500, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 1, "type": "flat"}, {"price": 180000, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 1, "type": "flat"}, {"price": 200000, "lat": "51.41460400", "lng": "-1.31075100", "bedrooms": 2, "type": "flat"}, {"price": 200000, "lat": "51.40951700", "lng": "-1.34176500", "bedrooms": 2, "type": "flat"}, {"price": 180000, "lat": "51.40804800", "lng": "-1.30204700", "bedrooms": 2, "type": "flat"}, {"price": 210000, "lat": "51.40744800", "lng": "-1.30841100", "bedrooms": 1, "type": "semi-detached_house"}, {"price": 220000, "lat": "51.40908000", "lng": "-1.32747000", "bedrooms": 2, "type": "flat"}, {"price": 220000, "lat": "51.38633600", "lng": "-1.32241000", "bedrooms": 2, "type": "flat"}, {"price": 220000, "lat": "51.40540700", "lng": "-1.31673700", "bedrooms": 2, "type": "flat"}, {"price": 220000, "lat": "51.39700000", "lng": "-1.30000000", "bedrooms": 1, "type": "flat"}, {"price": 220000, "lat": "51.40201900", "lng": "-1.32370300", "bedrooms": 1, "type": "flat"}, {"price": 220000, "lat": "51.38340700", "lng": "-1.33930500", "bedrooms": 2, "type": "flat"}, {"price": 219950, "lat": "51.39832700", "lng": "-1.33789400", "bedrooms": 2, "type": "flat"}, {"price": 219500, "lat": "51.39760500", "lng": "-1.30329800", "bedrooms": 1, "type": "flat"}, {"price": 218000, "lat": "51.39988000", "lng": "-1.29683000", "bedrooms": 1, "type": "flat"}, {"price": 215000, "lat": "51.40718000", "lng": "-1.33677000", "bedrooms": 2, "type": "detached_house"}, {"price": 215000, "lat": "51.39281400", "lng": "-1.30590300", "bedrooms": 2, "type": "flat"}, {"price": 215000, "lat": "51.39800000", "lng": "-1.32400000", "bedrooms": 2, "type": "flat"}, {"price": 210000, "lat": "51.41051300", "lng": "-1.29920600", "bedrooms": 3, "type": "flat"}, {"price": 210000, "lat": "51.39843900", "lng": "-1.32553800", "bedrooms": 2, "type": "flat"}, {"price": 205000, "lat": "51.40391900", "lng": "-1.30832100", "bedrooms": 1, "type": "flat"}, {"price": 210000, "lat": "51.39896900", "lng": "-1.32691400", "bedrooms": 2, "type": "flat"}, {"price": 210000, "lat": "51.40399900", "lng": "-1.32224700", "bedrooms": 1, "type": "flat"}, {"price": 210000, "lat": "51.39978800", "lng": "-1.32556100", "bedrooms": 1, "type": "flat"}, {"price": 210000, "lat": "51.40600000", "lng": "-1.33600000", "bedrooms": 2, "type": "flat"}, {"price": 210000, "lat": "51.39669100", "lng": "-1.31465700", "bedrooms": 1, "type": "flat"}, {"price": 210000, "lat": "51.40300000", "lng": "-1.29800000", "bedrooms": 2, "type": "flat"}, {"price": 209950, "lat": "51.40545700", "lng": "-1.31900800", "bedrooms": 1, "type": "semi-detached_house"}, {"price": 209950, "lat": "51.40522000", "lng": "-1.30291600", "bedrooms": 2, "type": "flat"}, {"price": 207500, "lat": "51.40977800", "lng": "-1.29999300", "bedrooms": 2, "type": "flat"}, {"price": 207500, "lat": "51.40365500", "lng": "-1.32373100", "bedrooms": 1, "type": "flat"}, {"price": 205000, "lat": "51.40186000", "lng": "-1.31492000", "bedrooms": 2, "type": "flat"}, {"price": 205000, "lat": "51.40369600", "lng": "-1.32269500", "bedrooms": 1, "type": "flat"}, {"price": 205000, "lat": "51.39514800", "lng": "-1.31618600", "bedrooms": 2, "type": "flat"}, {"price": 180000, "lat": "51.39743300", "lng": "-1.31339200", "bedrooms": 2, "type": "flat"}, {"price": 179999, "lat": "51.39718200", "lng": "-1.31891500", "bedrooms": 2, "type": "flat"}, {"price": 225000, "lat": "51.39664100", "lng": "-1.32821400", "bedrooms": 1, "type": "flat"}, {"price": 130000, "lat": "51.40336300", "lng": "-1.32873700", "bedrooms": 1, "type": "flat"}, {"price": 150000, "lat": "51.39800000", "lng": "-1.33700000", "bedrooms": 1, "type": "flat"}, {"price": 150000, "lat": "51.39743300", "lng": "-1.31339200", "bedrooms": 1, "type": "flat"}, {"price": 150000, "lat": "51.39078200", "lng": "-1.32316400", "bedrooms": 1, "type": "flat"}, {"price": 145000, "lat": "51.39700000", "lng": "-1.32600000", "bedrooms": 2, "type": "flat"}, {"price": 145000, "lat": "51.39933800", "lng": "-1.32908900", "bedrooms": 1, "type": "flat"}, {"price": 145000, "lat": "51.39678900", "lng": "-1.32758300", "bedrooms": 1, "type": "flat"}, {"price": 145000, "lat": "51.39743300", "lng": "-1.31339200", "bedrooms": 1, "type": "flat"}, {"price": 145000, "lat": "51.40635200", "lng": "-1.31939700", "bedrooms": 1, "type": "flat"}, {"price": 140000, "lat": "51.40284000", "lng": "-1.32851000", "bedrooms": 2, "type": "flat"}, {"price": 140000, "lat": "51.39356000", "lng": "-1.28314500", "bedrooms": 3, "type": "detached_house"}, {"price": 140000, "lat": "51.40729000", "lng": "-1.33063000", "bedrooms": 1, "type": "flat"}, {"price": 140000, "lat": "51.40606000", "lng": "-1.31092000", "bedrooms": 1, "type": "detached_house"}, {"price": 135000, "lat": "51.40334000", "lng": "-1.32468400", "bedrooms": 1, "type": "flat"}, {"price": 130000, "lat": "51.39383000", "lng": "-1.31872000", "bedrooms": 1, "type": "flat"}, {"price": 150000, "lat": "51.39700000", "lng": "-1.32713800", "bedrooms": 2, "type": "flat"}, {"price": 130000, "lat": "51.39358200", "lng": "-1.33953600", "bedrooms": 1, "type": "flat"}, {"price": 127500, "lat": "51.40248000", "lng": "-1.32812300", "bedrooms": 1, "type": "flat"}, {"price": 125000, "lat": "51.40397500", "lng": "-1.30961400", "bedrooms": 1, "type": "flat"}, {"price": 117500, "lat": "51.40409800", "lng": "-1.30762800", "bedrooms": 1, "type": "flat"}, {"price": 115000, "lat": "51.40395700", "lng": "-1.30995900", "bedrooms": 1, "type": "flat"}, {"price": 110000, "lat": "51.39692700", "lng": "-1.32226300", "bedrooms": 1, "type": "detached_house"}, {"price": 105000, "lat": "51.39698000", "lng": "-1.32198000", "bedrooms": 1, "type": "flat"}, {"price": 104000, "lat": "51.39681800", "lng": "-1.31011900", "bedrooms": 2, "type": "flat"}, {"price": 104000, "lat": "51.39700000", "lng": "-1.30100000", "bedrooms": 2, "type": "flat"}, {"price": 104000, "lat": "51.39754500", "lng": "-1.30238000", "bedrooms": 2, "type": "flat"}, {"price": 100000, "lat": "51.39479800", "lng": "-1.33439000", "bedrooms": 2, "type": "flat"}, {"price": 95000, "lat": "51.40409600", "lng": "-1.30764200", "bedrooms": null, "type": "flat"}, {"price": 91000, "lat": "51.38937600", "lng": "-1.30403400", "bedrooms": 2, "type": "flat"}, {"price": 150000, "lat": "51.40648100", "lng": "-1.31072600", "bedrooms": 1, "type": "flat"}, {"price": 151000, "lat": "51.40591700", "lng": "-1.32305700", "bedrooms": 1, "type": "flat"}, {"price": 179000, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 1, "type": "flat"}, {"price": 165000, "lat": "51.40480400", "lng": "-1.30840800", "bedrooms": 1, "type": "flat"}, {"price": 177500, "lat": "51.39922500", "lng": "-1.32982400", "bedrooms": 1, "type": "flat"}, {"price": 175000, "lat": "51.40098300", "lng": "-1.33010000", "bedrooms": 1, "type": "flat"}, {"price": 175000, "lat": "51.40215000", "lng": "-1.31402000", "bedrooms": 1, "type": "flat"}, {"price": 175000, "lat": "51.39681200", "lng": "-1.31622300", "bedrooms": 1, "type": "flat"}, {"price": 175000, "lat": "51.39910800", "lng": "-1.32777800", "bedrooms": 1, "type": "flat"}, {"price": 170000, "lat": "51.40157000", "lng": "-1.31497000", "bedrooms": 1, "type": "flat"}, {"price": 170000, "lat": "51.39850900", "lng": "-1.33820000", "bedrooms": 1, "type": "flat"}, {"price": 169950, "lat": "51.39816300", "lng": "-1.32708300", "bedrooms": 1, "type": "flat"}, {"price": 169950, "lat": "51.40573600", "lng": "-1.32359000", "bedrooms": 1, "type": "flat"}, {"price": 169950, "lat": "51.39663000", "lng": "-1.32805000", "bedrooms": 2, "type": "flat"}, {"price": 167500, "lat": "51.39758800", "lng": "-1.31890100", "bedrooms": 2, "type": "flat"}, {"price": 165000, "lat": "51.41000000", "lng": "-1.33100000", "bedrooms": 1, "type": "flat"}, {"price": 165000, "lat": "51.39848100", "lng": "-1.33819700", "bedrooms": 1, "type": "flat"}, {"price": 165000, "lat": "51.40764200", "lng": "-1.31109200", "bedrooms": 1, "type": "flat"}, {"price": 155000, "lat": "51.39600000", "lng": "-1.32700000", "bedrooms": 1, "type": "flat"}, {"price": 165000, "lat": "51.40644000", "lng": "-1.31078000", "bedrooms": 1, "type": "flat"}, {"price": 165000, "lat": "51.40462500", "lng": "-1.32402300", "bedrooms": 1, "type": "flat"}, {"price": 165000, "lat": "51.40199600", "lng": "-1.32699500", "bedrooms": 1, "type": "flat"}, {"price": 163500, "lat": "51.39996000", "lng": "-1.32753000", "bedrooms": 1, "type": "flat"}, {"price": 162500, "lat": "51.39997000", "lng": "-1.31610000", "bedrooms": 2, "type": "flat"}, {"price": 162500, "lat": "51.39721000", "lng": "-1.31896000", "bedrooms": 2, "type": "flat"}, {"price": 160000, "lat": "51.39920600", "lng": "-1.32761100", "bedrooms": 1, "type": "flat"}, {"price": 160000, "lat": "51.39700000", "lng": "-1.33700000", "bedrooms": 1, "type": "flat"}, {"price": 160000, "lat": "51.40600000", "lng": "-1.31000000", "bedrooms": 2, "type": "flat"}, {"price": 159995, "lat": "51.39991000", "lng": "-1.32520000", "bedrooms": 2, "type": "detached_house"}, {"price": 159950, "lat": "51.40950700", "lng": "-1.29976800", "bedrooms": 1, "type": "flat"}, {"price": 159950, "lat": "51.40573600", "lng": "-1.32359000", "bedrooms": 1, "type": "flat"}, {"price": 155000, "lat": "51.40480400", "lng": "-1.30840800", "bedrooms": 1, "type": "flat"}, {"price": 155000, "lat": "51.39854000", "lng": "-1.33758000", "bedrooms": 1, "type": "flat"}, {"price": 225000, "lat": "51.39574200", "lng": "-1.31058500", "bedrooms": 1, "type": "flat"}, {"price": 225000, "lat": "51.40879000", "lng": "-1.33986000", "bedrooms": 2, "type": "flat"}, {"price": 299995, "lat": "51.39750700", "lng": "-1.30325200", "bedrooms": 2, "type": "flat"}, {"price": 274950, "lat": "51.39982500", "lng": "-1.32653800", "bedrooms": 2, "type": "flat"}, {"price": 279995, "lat": "51.39903000", "lng": "-1.32698000", "bedrooms": 2, "type": "flat"}, {"price": 275000, "lat": "51.39543100", "lng": "-1.31561800", "bedrooms": 2, "type": "detached_house"}, {"price": 275000, "lat": "51.40929300", "lng": "-1.29514100", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 275000, "lat": "51.40999200", "lng": "-1.34822800", "bedrooms": 1, "type": "detached_house"}, {"price": 275000, "lat": "51.39600000", "lng": "-1.31700000", "bedrooms": 2, "type": "terraced_house"}, {"price": 275000, "lat": "51.39634800", "lng": "-1.32315400", "bedrooms": 2, "type": "flat"}, {"price": 275000, "lat": "51.40015900", "lng": "-1.31711700", "bedrooms": 2, "type": "terraced_house"}, {"price": 275000, "lat": "51.40838600", "lng": "-1.31090800", "bedrooms": 3, "type": "terraced_house"}, {"price": 275000, "lat": "51.40433200", "lng": "-1.32259600", "bedrooms": 2, "type": "flat"}, {"price": 275000, "lat": "51.40994400", "lng": "-1.33907100", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 275000, "lat": "51.40603200", "lng": "-1.29990900", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 275000, "lat": "51.39739600", "lng": "-1.30009100", "bedrooms": 2, "type": "flat"}, {"price": 275000, "lat": "51.41113100", "lng": "-1.29994200", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 274000, "lat": "51.38359500", "lng": "-1.34224800", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 280000, "lat": "51.39547700", "lng": "-1.31566300", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 273000, "lat": "51.39966000", "lng": "-1.32418000", "bedrooms": 2, "type": "flat"}, {"price": 273000, "lat": "51.39651000", "lng": "-1.29260000", "bedrooms": 2, "type": "flat"}, {"price": 270000, "lat": "51.40247000", "lng": "-1.32809000", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 270000, "lat": "51.37657300", "lng": "-1.34653400", "bedrooms": 2, "type": "flat"}, {"price": 270000, "lat": "51.40018800", "lng": "-1.31710300", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 270000, "lat": "51.39300000", "lng": "-1.31700000", "bedrooms": 2, "type": "terraced_house"}, {"price": 270000, "lat": "51.39757300", "lng": "-1.30316600", "bedrooms": 2, "type": "flat"}, {"price": 269950, "lat": "51.40893200", "lng": "-1.29406800", "bedrooms": 2, "type": "terraced_house"}, {"price": 269500, "lat": "51.40014200", "lng": "-1.31719300", "bedrooms": 2, "type": "detached_house"}, {"price": 266000, "lat": "51.39921400", "lng": "-1.29124600", "bedrooms": 2, "type": "flat"}, {"price": 265000, "lat": "51.38299500", "lng": "-1.34264600", "bedrooms": 2, "type": "terraced_house"}, {"price": 265000, "lat": "51.39710200", "lng": "-1.30917100", "bedrooms": 2, "type": "flat"}, {"price": 265000, "lat": "51.39575000", "lng": "-1.33526500", "bedrooms": 1, "type": "semi-detached_house"}, {"price": 279995, "lat": "51.40838600", "lng": "-1.31092700", "bedrooms": 3, "type": "terraced_house"}, {"price": 280000, "lat": "51.39600000", "lng": "-1.30900000", "bedrooms": 2, "type": "flat"}, {"price": 265000, "lat": "51.39507100", "lng": "-1.32467700", "bedrooms": 2, "type": "detached_house"}, {"price": 290000, "lat": "51.39971000", "lng": "-1.31866000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 299950, "lat": "51.40390000", "lng": "-1.32303000", "bedrooms": 1, "type": "flat"}, {"price": 299950, "lat": "51.39571500", "lng": "-1.31546700", "bedrooms": 2, "type": "terraced_house"}, {"price": 299950, "lat": "51.40735900", "lng": "-1.30835700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 299500, "lat": "51.39178000", "lng": "-1.31253000", "bedrooms": 3, "type": "terraced_house"}, {"price": 295000, "lat": "51.40844000", "lng": "-1.32800700", "bedrooms": 2, "type": "flat"}, {"price": 295000, "lat": "51.38714000", "lng": "-1.31386200", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 295000, "lat": "51.39762000", "lng": "-1.33578000", "bedrooms": 3, "type": "terraced_house"}, {"price": 295000, "lat": "51.40970000", "lng": "-1.31227400", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 295000, "lat": "51.41483000", "lng": "-1.31213100", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 295000, "lat": "51.40938800", "lng": "-1.33657700", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 295000, "lat": "51.39415000", "lng": "-1.33291000", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 290000, "lat": "51.39917000", "lng": "-1.29028000", "bedrooms": 2, "type": "flat"}, {"price": 290000, "lat": "51.39185000", "lng": "-1.33135000", "bedrooms": 2, "type": "flat"}, {"price": 290000, "lat": "51.40929300", "lng": "-1.29514100", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 280000, "lat": "51.40626000", "lng": "-1.30238000", "bedrooms": 2, "type": "terraced_house"}, {"price": 289950, "lat": "51.40841000", "lng": "-1.32583700", "bedrooms": 2, "type": "terraced_house"}, {"price": 289950, "lat": "51.40764600", "lng": "-1.32423600", "bedrooms": 2, "type": "terraced_house"}, {"price": 289950, "lat": "51.39074700", "lng": "-1.32409200", "bedrooms": 2, "type": "detached_house"}, {"price": 287950, "lat": "51.40282000", "lng": "-1.32627000", "bedrooms": 1, "type": "flat"}, {"price": 285000, "lat": "51.38606500", "lng": "-1.32279700", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 285000, "lat": "51.39975100", "lng": "-1.32702800", "bedrooms": 2, "type": "flat"}, {"price": 285000, "lat": "51.40804800", "lng": "-1.30204700", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 284950, "lat": "51.39598000", "lng": "-1.31020000", "bedrooms": 2, "type": "flat"}, {"price": 284000, "lat": "51.39682100", "lng": "-1.30922700", "bedrooms": 2, "type": "flat"}, {"price": 280000, "lat": "51.40759000", "lng": "-1.29636000", "bedrooms": 3, "type": "terraced_house"}, {"price": 280000, "lat": "51.38617000", "lng": "-1.31534000", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 280000, "lat": "51.39620000", "lng": "-1.31036000", "bedrooms": 2, "type": "flat"}, {"price": 280000, "lat": "51.40929300", "lng": "-1.29514100", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 265000, "lat": "51.38530000", "lng": "-1.32113000", "bedrooms": 2, "type": "flat"}, {"price": 265000, "lat": "51.40008800", "lng": "-1.31384100", "bedrooms": 3, "type": "semi-detached_house"}, {"price": 225000, "lat": "51.39843900", "lng": "-1.32553800", "bedrooms": 2, "type": "flat"}, {"price": 232000, "lat": "51.39796600", "lng": "-1.33007300", "bedrooms": 2, "type": "flat"}, {"price": 240000, "lat": "51.38700000", "lng": "-1.31600000", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 240000, "lat": "51.39739600", "lng": "-1.30009100", "bedrooms": 1, "type": "flat"}, {"price": 240000, "lat": "51.40798400", "lng": "-1.32687300", "bedrooms": 2, "type": "flat"}, {"price": 239950, "lat": "51.39600300", "lng": "-1.32631700", "bedrooms": 2, "type": "flat"}, {"price": 235000, "lat": "51.40539000", "lng": "-1.31722000", "bedrooms": 2, "type": "flat"}, {"price": 235000, "lat": "51.40990200", "lng": "-1.34652900", "bedrooms": 2, "type": "detached_house"}, {"price": 235000, "lat": "51.39834500", "lng": "-1.32558900", "bedrooms": 2, "type": "flat"}, {"price": 235000, "lat": "51.39820200", "lng": "-1.33018000", "bedrooms": 2, "type": "flat"}, {"price": 235000, "lat": "51.40887100", "lng": "-1.31031600", "bedrooms": 1, "type": "semi-detached_house"}, {"price": 235000, "lat": "51.40233000", "lng": "-1.31382000", "bedrooms": 2, "type": "flat"}, {"price": 235000, "lat": "51.39682200", "lng": "-1.30924700", "bedrooms": 1, "type": "flat"}, {"price": 234950, "lat": "51.39615100", "lng": "-1.32222200", "bedrooms": 2, "type": "flat"}, {"price": 234950, "lat": "51.39735000", "lng": "-1.30020800", "bedrooms": 1, "type": "flat"}, {"price": 230000, "lat": "51.40202000", "lng": "-1.32370000", "bedrooms": 1, "type": "flat"}, {"price": 245000, "lat": "51.40613400", "lng": "-1.32874500", "bedrooms": 2, "type": "flat"}, {"price": 230000, "lat": "51.38600000", "lng": "-1.32000000", "bedrooms": 2, "type": "flat"}, {"price": 230000, "lat": "51.38775400", "lng": "-1.32201600", "bedrooms": 2, "type": "flat"}, {"price": 230000, "lat": "51.40540700", "lng": "-1.31673700", "bedrooms": 2, "type": "flat"}, {"price": 230000, "lat": "51.39767500", "lng": "-1.31626300", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 230000, "lat": "51.38929400", "lng": "-1.31506600", "bedrooms": 3, "type": "terraced_house"}, {"price": 229995, "lat": "51.39779600", "lng": "-1.33788000", "bedrooms": 2, "type": "flat"}, {"price": 229950, "lat": "51.40815700", "lng": "-1.32888400", "bedrooms": 2, "type": "flat"}, {"price": 226000, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 2, "type": "flat"}, {"price": 225000, "lat": "51.39740600", "lng": "-1.30016200", "bedrooms": 1, "type": "flat"}, {"price": 225000, "lat": "51.40012200", "lng": "-1.31560200", "bedrooms": 2, "type": "flat"}, {"price": 225000, "lat": "51.39684900", "lng": "-1.33111900", "bedrooms": 2, "type": "flat"}, {"price": 225000, "lat": "51.40392800", "lng": "-1.32491700", "bedrooms": 2, "type": "flat"}, {"price": 225000, "lat": "51.40397900", "lng": "-1.32256100", "bedrooms": 1, "type": "flat"}, {"price": 240000, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 2, "type": "flat"}, {"price": 245000, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 2, "type": "flat"}, {"price": 264950, "lat": "51.39795200", "lng": "-1.31576100", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 250000, "lat": "51.41005600", "lng": "-1.31472700", "bedrooms": 2, "type": "flat"}, {"price": 261000, "lat": "51.40868000", "lng": "-1.31693000", "bedrooms": 2, "type": "flat"}, {"price": 260000, "lat": "51.39600000", "lng": "-1.30900000", "bedrooms": 2, "type": "flat"}, {"price": 260000, "lat": "51.40195700", "lng": "-1.32817000", "bedrooms": 2, "type": "flat"}, {"price": 260000, "lat": "51.39802800", "lng": "-1.31516500", "bedrooms": 2, "type": "terraced_house"}, {"price": 260000, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 2, "type": "flat"}, {"price": 259950, "lat": "51.39543500", "lng": "-1.32871400", "bedrooms": 2, "type": "flat"}, {"price": 259500, "lat": "51.41143600", "lng": "-1.33771200", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 259000, "lat": "51.39929000", "lng": "-1.32607000", "bedrooms": 2, "type": "flat"}, {"price": 259000, "lat": "51.40868000", "lng": "-1.31693000", "bedrooms": 2, "type": "flat"}, {"price": 257500, "lat": "51.40608200", "lng": "-1.32304900", "bedrooms": 2, "type": "flat"}, {"price": 254795, "lat": "51.39941000", "lng": "-1.32152000", "bedrooms": 2, "type": "detached_house"}, {"price": 250000, "lat": "51.40729100", "lng": "-1.30540800", "bedrooms": 2, "type": "terraced_house"}, {"price": 250000, "lat": "51.38351500", "lng": "-1.34340300", "bedrooms": 3, "type": "terraced_house"}, {"price": 250000, "lat": "51.39536900", "lng": "-1.31713100", "bedrooms": 2, "type": "terraced_house"}, {"price": 247500, "lat": "51.39413100", "lng": "-1.32732600", "bedrooms": 2, "type": "flat"}, {"price": 250000, "lat": "51.39795100", "lng": "-1.33039700", "bedrooms": 2, "type": "flat"}, {"price": 250000, "lat": "51.40376500", "lng": "-1.32655200", "bedrooms": 2, "type": "flat"}, {"price": 250000, "lat": "51.39900000", "lng": "-1.31300000", "bedrooms": 2, "type": "terraced_house"}, {"price": 250000, "lat": "51.39600000", "lng": "-1.30900000", "bedrooms": 2, "type": "flat"}, {"price": 250000, "lat": "51.40008800", "lng": "-1.31384100", "bedrooms": 2, "type": "terraced_house"}, {"price": 250000, "lat": "51.40857000", "lng": "-1.32847000", "bedrooms": 2, "type": "flat"}, {"price": 250000, "lat": "51.40060400", "lng": "-1.31747000", "bedrooms": 2, "type": "terraced_house"}, {"price": 250000, "lat": "51.41030400", "lng": "-1.33167000", "bedrooms": 1, "type": "flat"}, {"price": 250000, "lat": "51.38324700", "lng": "-1.34201600", "bedrooms": 3, "type": "detached_house"}, {"price": 250000, "lat": "51.38383500", "lng": "-1.34142700", "bedrooms": 2, "type": "semi-detached_house"}, {"price": 250000, "lat": "51.40824600", "lng": "-1.32980700", "bedrooms": 2, "type": "flat"}, {"price": 249950, "lat": "51.40886000", "lng": "-1.33963300", "bedrooms": 2, "type": "flat"}, {"price": 249950, "lat": "51.40868000", "lng": "-1.31693000", "bedrooms": 2, "type": "flat"}, {"price": 249000, "lat": "51.39929000", "lng": "-1.32607000", "bedrooms": 2, "type": "flat"}, {"price": 2250000, "lat": "51.40964700", "lng": "-1.34636800", "bedrooms": 5, "type": "detached_house"}]}, "process_time": "1.72"}
+{
+  "status": "success",
+  "postcode": "RG14",
+  "postcode_type": "district",
+  "url": "https://propertydata.co.uk/draw?input=RG14",
+  "data": {
+    "points_analysed": 514,
+    "average": 308186,
+    "70pc_range": [
+      190000,
+      500000
+    ],
+    "80pc_range": [
+      165000,
+      575000
+    ],
+    "90pc_range": [
+      145000,
+      675000
+    ],
+    "100pc_range": [
+      66400,
+      2250000
+    ],
+    "raw_data": [
+      {
+        "price": 66400,
+        "lat": "51.39600000",
+        "lng": "-1.31900000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 375000,
+        "lat": "51.40545200",
+        "lng": "-1.31329700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 380000,
+        "lat": "51.39591200",
+        "lng": "-1.31532600",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 380000,
+        "lat": "51.40181400",
+        "lng": "-1.32615400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 379950,
+        "lat": "51.39334900",
+        "lng": "-1.33856300",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.38600000",
+        "lng": "-1.31700000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.40937400",
+        "lng": "-1.34386200",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.40556000",
+        "lng": "-1.30226000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.40658600",
+        "lng": "-1.29443500",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.39093300",
+        "lng": "-1.33136400",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.40900700",
+        "lng": "-1.33835400",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.40161500",
+        "lng": "-1.32708100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 375000,
+        "lat": "51.38875900",
+        "lng": "-1.33668300",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.39711900",
+        "lng": "-1.30028200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 375000,
+        "lat": "51.39325700",
+        "lng": "-1.33847700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.40948100",
+        "lng": "-1.32168000",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 385000,
+        "lat": "51.41134600",
+        "lng": "-1.30080400",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 375000,
+        "lat": "51.37925300",
+        "lng": "-1.35151700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 370000,
+        "lat": "51.39655000",
+        "lng": "-1.31484000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 369950,
+        "lat": "51.39215900",
+        "lng": "-1.30554600",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 368900,
+        "lat": "51.39644000",
+        "lng": "-1.30858000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 365000,
+        "lat": "51.39433600",
+        "lng": "-1.33832800",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 365000,
+        "lat": "51.39900200",
+        "lng": "-1.33939500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 365000,
+        "lat": "51.39583200",
+        "lng": "-1.31320000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 365000,
+        "lat": "51.39648000",
+        "lng": "-1.30949400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 360000,
+        "lat": "51.39917000",
+        "lng": "-1.29028000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 360000,
+        "lat": "51.40110200",
+        "lng": "-1.32577200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 360000,
+        "lat": "51.41013000",
+        "lng": "-1.30775200",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 360000,
+        "lat": "51.40400000",
+        "lng": "-1.30000000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 357500,
+        "lat": "51.39861100",
+        "lng": "-1.29136600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 380000,
+        "lat": "51.39396300",
+        "lng": "-1.33693000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 385000,
+        "lat": "51.37749500",
+        "lng": "-1.35130500",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 350000,
+        "lat": "51.40952300",
+        "lng": "-1.30786000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.41104200",
+        "lng": "-1.34097300",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 420000,
+        "lat": "51.39655500",
+        "lng": "-1.29324700",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 418500,
+        "lat": "51.41672000",
+        "lng": "-1.31975000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 415000,
+        "lat": "51.40186700",
+        "lng": "-1.32807500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 415000,
+        "lat": "51.41051500",
+        "lng": "-1.30147800",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 415000,
+        "lat": "51.39721800",
+        "lng": "-1.30170000",
+        "bedrooms": 3,
+        "type": "flat"
+      },
+      {
+        "price": 410000,
+        "lat": "51.41672000",
+        "lng": "-1.31975000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 402000,
+        "lat": "51.41672000",
+        "lng": "-1.31975000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.40075600",
+        "lng": "-1.32668200",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.39879600",
+        "lng": "-1.32727500",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.38621700",
+        "lng": "-1.34330200",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.40500000",
+        "lng": "-1.32400000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.40342700",
+        "lng": "-1.29704600",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.39610800",
+        "lng": "-1.34176600",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.40674900",
+        "lng": "-1.33261800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 385000,
+        "lat": "51.39929000",
+        "lng": "-1.32607000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 400000,
+        "lat": "51.40549400",
+        "lng": "-1.32547200",
+        "bedrooms": null,
+        "type": "detached_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.40989500",
+        "lng": "-1.29392400",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 400000,
+        "lat": "51.40962900",
+        "lng": "-1.31386100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 400000,
+        "lat": "51.39741800",
+        "lng": "-1.29223200",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 399950,
+        "lat": "51.39125000",
+        "lng": "-1.32044000",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 399950,
+        "lat": "51.41086800",
+        "lng": "-1.33671700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 395000,
+        "lat": "51.39632700",
+        "lng": "-1.34249200",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 395000,
+        "lat": "51.39978800",
+        "lng": "-1.32556100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 395000,
+        "lat": "51.40352000",
+        "lng": "-1.29776000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 395000,
+        "lat": "51.39711900",
+        "lng": "-1.30028200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 390000,
+        "lat": "51.39142200",
+        "lng": "-1.33026400",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 390000,
+        "lat": "51.40398600",
+        "lng": "-1.32274100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 385000,
+        "lat": "51.39184900",
+        "lng": "-1.31711400",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 355000,
+        "lat": "51.40199700",
+        "lng": "-1.32699500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 350000,
+        "lat": "51.39928800",
+        "lng": "-1.29163400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 425000,
+        "lat": "51.38750000",
+        "lng": "-1.31274500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 310000,
+        "lat": "51.40019900",
+        "lng": "-1.33288700",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.41229000",
+        "lng": "-1.30410300",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 320000,
+        "lat": "51.39262700",
+        "lng": "-1.31707200",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 320000,
+        "lat": "51.41242600",
+        "lng": "-1.30410900",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 320000,
+        "lat": "51.40605600",
+        "lng": "-1.29551600",
+        "bedrooms": 4,
+        "type": "terraced_house"
+      },
+      {
+        "price": 320000,
+        "lat": "51.39728400",
+        "lng": "-1.30021800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 318000,
+        "lat": "51.39716000",
+        "lng": "-1.30102000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 316000,
+        "lat": "51.39966000",
+        "lng": "-1.32418000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 316000,
+        "lat": "51.39651000",
+        "lng": "-1.29260000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 315000,
+        "lat": "51.39558000",
+        "lng": "-1.32358300",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 315000,
+        "lat": "51.38710000",
+        "lng": "-1.32118900",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 315000,
+        "lat": "51.39947700",
+        "lng": "-1.31691200",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 312500,
+        "lat": "51.39928800",
+        "lng": "-1.29163400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 310000,
+        "lat": "51.40810000",
+        "lng": "-1.32849000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 310000,
+        "lat": "51.41151400",
+        "lng": "-1.30870900",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.39948000",
+        "lng": "-1.31693000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 310000,
+        "lat": "51.39978800",
+        "lng": "-1.32556100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 309995,
+        "lat": "51.41034000",
+        "lng": "-1.31041000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 308000,
+        "lat": "51.39988000",
+        "lng": "-1.29683000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 300000,
+        "lat": "51.40819900",
+        "lng": "-1.34040400",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.41059200",
+        "lng": "-1.34064300",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.39917000",
+        "lng": "-1.29028000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 300000,
+        "lat": "51.37981000",
+        "lng": "-1.34940000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.40548000",
+        "lng": "-1.31053000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.39722900",
+        "lng": "-1.33885100",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.41224600",
+        "lng": "-1.29577200",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.40736200",
+        "lng": "-1.30835100",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.39064700",
+        "lng": "-1.32358200",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.39977100",
+        "lng": "-1.33265700",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.40754000",
+        "lng": "-1.31535000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.39386800",
+        "lng": "-1.31715000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 350000,
+        "lat": "51.40983100",
+        "lng": "-1.30892100",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 340000,
+        "lat": "51.41143000",
+        "lng": "-1.34033000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 350000,
+        "lat": "51.40384700",
+        "lng": "-1.32367100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 350000,
+        "lat": "51.39700000",
+        "lng": "-1.30150800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 350000,
+        "lat": "51.38938500",
+        "lng": "-1.31184500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 350000,
+        "lat": "51.40657000",
+        "lng": "-1.30428000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 350000,
+        "lat": "51.40399900",
+        "lng": "-1.32224700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 350000,
+        "lat": "51.39288600",
+        "lng": "-1.31296600",
+        "bedrooms": 4,
+        "type": "terraced_house"
+      },
+      {
+        "price": 350000,
+        "lat": "51.41143000",
+        "lng": "-1.34032700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 349950,
+        "lat": "51.40539500",
+        "lng": "-1.29697500",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 347500,
+        "lat": "51.40350600",
+        "lng": "-1.29777500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 345000,
+        "lat": "51.41158300",
+        "lng": "-1.33401400",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 345000,
+        "lat": "51.39106000",
+        "lng": "-1.31876000",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 345000,
+        "lat": "51.39215900",
+        "lng": "-1.30558000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 343000,
+        "lat": "51.40752600",
+        "lng": "-1.29741100",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 340000,
+        "lat": "51.41028300",
+        "lng": "-1.31041000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.41144300",
+        "lng": "-1.31262700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 340000,
+        "lat": "51.39600000",
+        "lng": "-1.30100000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 340000,
+        "lat": "51.39917000",
+        "lng": "-1.29028000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 339999,
+        "lat": "51.41137000",
+        "lng": "-1.33965000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 338000,
+        "lat": "51.39682200",
+        "lng": "-1.30924700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 330000,
+        "lat": "51.40465500",
+        "lng": "-1.32227800",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 330000,
+        "lat": "51.39159800",
+        "lng": "-1.30886000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.39471700",
+        "lng": "-1.32471300",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.40745100",
+        "lng": "-1.30122700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.41234300",
+        "lng": "-1.29551100",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 325000,
+        "lat": "51.39551500",
+        "lng": "-1.32222900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 325000,
+        "lat": "51.39682400",
+        "lng": "-1.30924700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 325000,
+        "lat": "51.40386500",
+        "lng": "-1.32253400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 325000,
+        "lat": "51.40008500",
+        "lng": "-1.33422000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 425000,
+        "lat": "51.38600600",
+        "lng": "-1.30977300",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 425000,
+        "lat": "51.39687300",
+        "lng": "-1.31153700",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.40621800",
+        "lng": "-1.32910600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 575000,
+        "lat": "51.39569000",
+        "lng": "-1.31544000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 650000,
+        "lat": "51.41031000",
+        "lng": "-1.31454000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 650000,
+        "lat": "51.39461000",
+        "lng": "-1.31019000",
+        "bedrooms": 5,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 650000,
+        "lat": "51.39297800",
+        "lng": "-1.32315500",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 625000,
+        "lat": "51.39978800",
+        "lng": "-1.32556100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 620000,
+        "lat": "51.39309600",
+        "lng": "-1.32246800",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 600000,
+        "lat": "51.39159300",
+        "lng": "-1.31404300",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 600000,
+        "lat": "51.39800000",
+        "lng": "-1.32600000",
+        "bedrooms": 5,
+        "type": "terraced_house"
+      },
+      {
+        "price": 599000,
+        "lat": "51.41669000",
+        "lng": "-1.31978000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 595000,
+        "lat": "51.38791200",
+        "lng": "-1.33342600",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 595000,
+        "lat": "51.38261000",
+        "lng": "-1.34483300",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 590000,
+        "lat": "51.39978800",
+        "lng": "-1.32556100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 585000,
+        "lat": "51.37339000",
+        "lng": "-1.34582700",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 585000,
+        "lat": "51.40736700",
+        "lng": "-1.33431500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 575000,
+        "lat": "51.37544700",
+        "lng": "-1.35276300",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 650000,
+        "lat": "51.39397000",
+        "lng": "-1.33663000",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 575000,
+        "lat": "51.38984900",
+        "lng": "-1.32298200",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 575000,
+        "lat": "51.37593800",
+        "lng": "-1.35114900",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 575000,
+        "lat": "51.38725600",
+        "lng": "-1.32623600",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 575000,
+        "lat": "51.39070400",
+        "lng": "-1.31165300",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 575000,
+        "lat": "51.41217200",
+        "lng": "-1.34091900",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 560000,
+        "lat": "51.39667100",
+        "lng": "-1.29263400",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 559000,
+        "lat": "51.39648000",
+        "lng": "-1.29262000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 557000,
+        "lat": "51.39648000",
+        "lng": "-1.29262000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 551000,
+        "lat": "51.39651000",
+        "lng": "-1.29260000",
+        "bedrooms": 4,
+        "type": "terraced_house"
+      },
+      {
+        "price": 550000,
+        "lat": "51.40615000",
+        "lng": "-1.33643500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 550000,
+        "lat": "51.38691200",
+        "lng": "-1.33226000",
+        "bedrooms": 5,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 550000,
+        "lat": "51.39679600",
+        "lng": "-1.31814500",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 550000,
+        "lat": "51.38180500",
+        "lng": "-1.34587000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 650000,
+        "lat": "51.38228200",
+        "lng": "-1.34375000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 659950,
+        "lat": "51.41108600",
+        "lng": "-1.34742200",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 540000,
+        "lat": "51.41147100",
+        "lng": "-1.31261600",
+        "bedrooms": 5,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 800000,
+        "lat": "51.40450300",
+        "lng": "-1.33453900",
+        "bedrooms": 5,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 1750000,
+        "lat": "51.41558600",
+        "lng": "-1.33379800",
+        "bedrooms": 6,
+        "type": "detached_house"
+      },
+      {
+        "price": 1500000,
+        "lat": "51.43326100",
+        "lng": "-1.30191800",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 1250000,
+        "lat": "51.42563000",
+        "lng": "-1.29489000",
+        "bedrooms": 6,
+        "type": "detached_house"
+      },
+      {
+        "price": 1150000,
+        "lat": "51.41109500",
+        "lng": "-1.34739300",
+        "bedrooms": 6,
+        "type": "detached_house"
+      },
+      {
+        "price": 1100000,
+        "lat": "51.37406200",
+        "lng": "-1.34297800",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 1100000,
+        "lat": "51.40792400",
+        "lng": "-1.34194600",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 1000000,
+        "lat": "51.42100000",
+        "lng": "-1.32903000",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 900000,
+        "lat": "51.40932000",
+        "lng": "-1.33050000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 850000,
+        "lat": "51.38231600",
+        "lng": "-1.34875800",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 850000,
+        "lat": "51.37405000",
+        "lng": "-1.34298000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 850000,
+        "lat": "51.42505100",
+        "lng": "-1.29788500",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 825000,
+        "lat": "51.38479600",
+        "lng": "-1.32622100",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 800000,
+        "lat": "51.44539000",
+        "lng": "-1.32200000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 800000,
+        "lat": "51.41055000",
+        "lng": "-1.31121000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 670000,
+        "lat": "51.41451000",
+        "lng": "-1.32455000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 785000,
+        "lat": "51.39162300",
+        "lng": "-1.32612200",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 765000,
+        "lat": "51.38764000",
+        "lng": "-1.33987000",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 750000,
+        "lat": "51.38502200",
+        "lng": "-1.32126100",
+        "bedrooms": null,
+        "type": "detached_house"
+      },
+      {
+        "price": 700000,
+        "lat": "51.40755200",
+        "lng": "-1.30015700",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 700000,
+        "lat": "51.37377600",
+        "lng": "-1.34959100",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 700000,
+        "lat": "51.41296000",
+        "lng": "-1.31508000",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 699000,
+        "lat": "51.41669000",
+        "lng": "-1.31978000",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 685000,
+        "lat": "51.41669000",
+        "lng": "-1.31978000",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 680000,
+        "lat": "51.39077800",
+        "lng": "-1.32317800",
+        "bedrooms": 6,
+        "type": "terraced_house"
+      },
+      {
+        "price": 679000,
+        "lat": "51.41451000",
+        "lng": "-1.32455000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 675000,
+        "lat": "51.39311300",
+        "lng": "-1.32238200",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 675000,
+        "lat": "51.39742500",
+        "lng": "-1.30095900",
+        "bedrooms": 3,
+        "type": "flat"
+      },
+      {
+        "price": 675000,
+        "lat": "51.39429400",
+        "lng": "-1.32253700",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 550000,
+        "lat": "51.39651000",
+        "lng": "-1.29260000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 535000,
+        "lat": "51.38908000",
+        "lng": "-1.33278400",
+        "bedrooms": 4,
+        "type": "terraced_house"
+      },
+      {
+        "price": 425000,
+        "lat": "51.39390100",
+        "lng": "-1.33868300",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.40532400",
+        "lng": "-1.30085900",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 465000,
+        "lat": "51.39855500",
+        "lng": "-1.33406300",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.39208700",
+        "lng": "-1.32431600",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.41051500",
+        "lng": "-1.30147800",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.39722000",
+        "lng": "-1.31379900",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.39615000",
+        "lng": "-1.31261000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.39486900",
+        "lng": "-1.33018400",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.40718000",
+        "lng": "-1.33484000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.41431000",
+        "lng": "-1.31453000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.41612600",
+        "lng": "-1.32968100",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.39713600",
+        "lng": "-1.31100900",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.38766500",
+        "lng": "-1.32272100",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.40733200",
+        "lng": "-1.31576900",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 450000,
+        "lat": "51.40613400",
+        "lng": "-1.32874500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 445000,
+        "lat": "51.39228800",
+        "lng": "-1.31288400",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 475000,
+        "lat": "51.39151800",
+        "lng": "-1.31723100",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 445000,
+        "lat": "51.38489200",
+        "lng": "-1.33775000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 440000,
+        "lat": "51.39259000",
+        "lng": "-1.30899000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 435000,
+        "lat": "51.40195800",
+        "lng": "-1.32818800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 435000,
+        "lat": "51.39689000",
+        "lng": "-1.31182800",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 435000,
+        "lat": "51.38599100",
+        "lng": "-1.30982200",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 430000,
+        "lat": "51.39100000",
+        "lng": "-1.31900000",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 430000,
+        "lat": "51.39253000",
+        "lng": "-1.30907000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 429950,
+        "lat": "51.41880700",
+        "lng": "-1.32789600",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 427500,
+        "lat": "51.39822300",
+        "lng": "-1.29046300",
+        "bedrooms": 3,
+        "type": "flat"
+      },
+      {
+        "price": 425000,
+        "lat": "51.39972300",
+        "lng": "-1.33314600",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 425000,
+        "lat": "51.39630800",
+        "lng": "-1.31252000",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 425000,
+        "lat": "51.41107900",
+        "lng": "-1.30858600",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 425000,
+        "lat": "51.40738200",
+        "lng": "-1.31599100",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 470000,
+        "lat": "51.40848500",
+        "lng": "-1.33904200",
+        "bedrooms": 5,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 475000,
+        "lat": "51.39014000",
+        "lng": "-1.33708800",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 535000,
+        "lat": "51.39651000",
+        "lng": "-1.29260000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 500000,
+        "lat": "51.39231000",
+        "lng": "-1.33796000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 530000,
+        "lat": "51.39060200",
+        "lng": "-1.30966600",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.41672000",
+        "lng": "-1.31975000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.39667800",
+        "lng": "-1.33336400",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.40629500",
+        "lng": "-1.33674400",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.41146300",
+        "lng": "-1.33482200",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.39350000",
+        "lng": "-1.33954100",
+        "bedrooms": 4,
+        "type": "terraced_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.39667800",
+        "lng": "-1.29273600",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.41171600",
+        "lng": "-1.29921500",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.41007900",
+        "lng": "-1.30772100",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 525000,
+        "lat": "51.38921300",
+        "lng": "-1.31007100",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 520000,
+        "lat": "51.39145500",
+        "lng": "-1.32595600",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 510000,
+        "lat": "51.39667000",
+        "lng": "-1.29263500",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 500000,
+        "lat": "51.40927200",
+        "lng": "-1.29512700",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 500000,
+        "lat": "51.41078800",
+        "lng": "-1.33724700",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 475000,
+        "lat": "51.37434000",
+        "lng": "-1.34929500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 500000,
+        "lat": "51.40186800",
+        "lng": "-1.32807500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 500000,
+        "lat": "51.39142200",
+        "lng": "-1.34117700",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 500000,
+        "lat": "51.38337300",
+        "lng": "-1.31980900",
+        "bedrooms": null,
+        "type": "detached_house"
+      },
+      {
+        "price": 500000,
+        "lat": "51.39482900",
+        "lng": "-1.31699500",
+        "bedrooms": 5,
+        "type": "detached_house"
+      },
+      {
+        "price": 495000,
+        "lat": "51.39509500",
+        "lng": "-1.32186000",
+        "bedrooms": 4,
+        "type": "terraced_house"
+      },
+      {
+        "price": 495000,
+        "lat": "51.40603100",
+        "lng": "-1.32871900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 495000,
+        "lat": "51.37313700",
+        "lng": "-1.34592700",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 495000,
+        "lat": "51.39560300",
+        "lng": "-1.31138400",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 495000,
+        "lat": "51.38547100",
+        "lng": "-1.32656100",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 485000,
+        "lat": "51.39366100",
+        "lng": "-1.33998400",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 480000,
+        "lat": "51.39655100",
+        "lng": "-1.31482800",
+        "bedrooms": 6,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 480000,
+        "lat": "51.41672000",
+        "lng": "-1.31975000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 480000,
+        "lat": "51.41400000",
+        "lng": "-1.31100000",
+        "bedrooms": 4,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 475000,
+        "lat": "51.40849000",
+        "lng": "-1.32769000",
+        "bedrooms": 4,
+        "type": "detached_house"
+      },
+      {
+        "price": 300000,
+        "lat": "51.40560000",
+        "lng": "-1.31847700",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 299999,
+        "lat": "51.39817500",
+        "lng": "-1.32705100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 90000,
+        "lat": "51.39641400",
+        "lng": "-1.32206000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 195000,
+        "lat": "51.39234300",
+        "lng": "-1.32500600",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.39653000",
+        "lng": "-1.31320400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.40185700",
+        "lng": "-1.31490700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.39540000",
+        "lng": "-1.32461400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.39776900",
+        "lng": "-1.33789400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.38600000",
+        "lng": "-1.31300000",
+        "bedrooms": 1,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 200000,
+        "lat": "51.40406000",
+        "lng": "-1.32970400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.40730600",
+        "lng": "-1.32576700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.39791000",
+        "lng": "-1.32581800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.39750200",
+        "lng": "-1.33816600",
+        "bedrooms": 1,
+        "type": "terraced_house"
+      },
+      {
+        "price": 199995,
+        "lat": "51.39531000",
+        "lng": "-1.31707000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 199950,
+        "lat": "51.39834400",
+        "lng": "-1.32559000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 199950,
+        "lat": "51.39913400",
+        "lng": "-1.32640100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 199950,
+        "lat": "51.40390800",
+        "lng": "-1.29858300",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 195000,
+        "lat": "51.39900000",
+        "lng": "-1.32400000",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 200000,
+        "lat": "51.40964000",
+        "lng": "-1.30713000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 190000,
+        "lat": "51.40541000",
+        "lng": "-1.31672300",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 190000,
+        "lat": "51.39200000",
+        "lng": "-1.32600000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 190000,
+        "lat": "51.40083300",
+        "lng": "-1.32937500",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 190000,
+        "lat": "51.39797100",
+        "lng": "-1.32587500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 190000,
+        "lat": "51.41093200",
+        "lng": "-1.32207100",
+        "bedrooms": 1,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 189950,
+        "lat": "51.39791000",
+        "lng": "-1.32581800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 189950,
+        "lat": "51.39598400",
+        "lng": "-1.32397800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 188000,
+        "lat": "51.40746400",
+        "lng": "-1.30845400",
+        "bedrooms": 1,
+        "type": "terraced_house"
+      },
+      {
+        "price": 188000,
+        "lat": "51.40632400",
+        "lng": "-1.30866500",
+        "bedrooms": 1,
+        "type": "terraced_house"
+      },
+      {
+        "price": 187500,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 185000,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 182500,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 180000,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.41460400",
+        "lng": "-1.31075100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 200000,
+        "lat": "51.40951700",
+        "lng": "-1.34176500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 180000,
+        "lat": "51.40804800",
+        "lng": "-1.30204700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.40744800",
+        "lng": "-1.30841100",
+        "bedrooms": 1,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 220000,
+        "lat": "51.40908000",
+        "lng": "-1.32747000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 220000,
+        "lat": "51.38633600",
+        "lng": "-1.32241000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 220000,
+        "lat": "51.40540700",
+        "lng": "-1.31673700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 220000,
+        "lat": "51.39700000",
+        "lng": "-1.30000000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 220000,
+        "lat": "51.40201900",
+        "lng": "-1.32370300",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 220000,
+        "lat": "51.38340700",
+        "lng": "-1.33930500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 219950,
+        "lat": "51.39832700",
+        "lng": "-1.33789400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 219500,
+        "lat": "51.39760500",
+        "lng": "-1.30329800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 218000,
+        "lat": "51.39988000",
+        "lng": "-1.29683000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 215000,
+        "lat": "51.40718000",
+        "lng": "-1.33677000",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 215000,
+        "lat": "51.39281400",
+        "lng": "-1.30590300",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 215000,
+        "lat": "51.39800000",
+        "lng": "-1.32400000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.41051300",
+        "lng": "-1.29920600",
+        "bedrooms": 3,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.39843900",
+        "lng": "-1.32553800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 205000,
+        "lat": "51.40391900",
+        "lng": "-1.30832100",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.39896900",
+        "lng": "-1.32691400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.40399900",
+        "lng": "-1.32224700",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.39978800",
+        "lng": "-1.32556100",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.40600000",
+        "lng": "-1.33600000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.39669100",
+        "lng": "-1.31465700",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 210000,
+        "lat": "51.40300000",
+        "lng": "-1.29800000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 209950,
+        "lat": "51.40545700",
+        "lng": "-1.31900800",
+        "bedrooms": 1,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 209950,
+        "lat": "51.40522000",
+        "lng": "-1.30291600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 207500,
+        "lat": "51.40977800",
+        "lng": "-1.29999300",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 207500,
+        "lat": "51.40365500",
+        "lng": "-1.32373100",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 205000,
+        "lat": "51.40186000",
+        "lng": "-1.31492000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 205000,
+        "lat": "51.40369600",
+        "lng": "-1.32269500",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 205000,
+        "lat": "51.39514800",
+        "lng": "-1.31618600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 180000,
+        "lat": "51.39743300",
+        "lng": "-1.31339200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 179999,
+        "lat": "51.39718200",
+        "lng": "-1.31891500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.39664100",
+        "lng": "-1.32821400",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 130000,
+        "lat": "51.40336300",
+        "lng": "-1.32873700",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 150000,
+        "lat": "51.39800000",
+        "lng": "-1.33700000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 150000,
+        "lat": "51.39743300",
+        "lng": "-1.31339200",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 150000,
+        "lat": "51.39078200",
+        "lng": "-1.32316400",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 145000,
+        "lat": "51.39700000",
+        "lng": "-1.32600000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 145000,
+        "lat": "51.39933800",
+        "lng": "-1.32908900",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 145000,
+        "lat": "51.39678900",
+        "lng": "-1.32758300",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 145000,
+        "lat": "51.39743300",
+        "lng": "-1.31339200",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 145000,
+        "lat": "51.40635200",
+        "lng": "-1.31939700",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 140000,
+        "lat": "51.40284000",
+        "lng": "-1.32851000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 140000,
+        "lat": "51.39356000",
+        "lng": "-1.28314500",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 140000,
+        "lat": "51.40729000",
+        "lng": "-1.33063000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 140000,
+        "lat": "51.40606000",
+        "lng": "-1.31092000",
+        "bedrooms": 1,
+        "type": "detached_house"
+      },
+      {
+        "price": 135000,
+        "lat": "51.40334000",
+        "lng": "-1.32468400",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 130000,
+        "lat": "51.39383000",
+        "lng": "-1.31872000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 150000,
+        "lat": "51.39700000",
+        "lng": "-1.32713800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 130000,
+        "lat": "51.39358200",
+        "lng": "-1.33953600",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 127500,
+        "lat": "51.40248000",
+        "lng": "-1.32812300",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 125000,
+        "lat": "51.40397500",
+        "lng": "-1.30961400",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 117500,
+        "lat": "51.40409800",
+        "lng": "-1.30762800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 115000,
+        "lat": "51.40395700",
+        "lng": "-1.30995900",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 110000,
+        "lat": "51.39692700",
+        "lng": "-1.32226300",
+        "bedrooms": 1,
+        "type": "detached_house"
+      },
+      {
+        "price": 105000,
+        "lat": "51.39698000",
+        "lng": "-1.32198000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 104000,
+        "lat": "51.39681800",
+        "lng": "-1.31011900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 104000,
+        "lat": "51.39700000",
+        "lng": "-1.30100000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 104000,
+        "lat": "51.39754500",
+        "lng": "-1.30238000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 100000,
+        "lat": "51.39479800",
+        "lng": "-1.33439000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 95000,
+        "lat": "51.40409600",
+        "lng": "-1.30764200",
+        "bedrooms": null,
+        "type": "flat"
+      },
+      {
+        "price": 91000,
+        "lat": "51.38937600",
+        "lng": "-1.30403400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 150000,
+        "lat": "51.40648100",
+        "lng": "-1.31072600",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 151000,
+        "lat": "51.40591700",
+        "lng": "-1.32305700",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 179000,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 165000,
+        "lat": "51.40480400",
+        "lng": "-1.30840800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 177500,
+        "lat": "51.39922500",
+        "lng": "-1.32982400",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 175000,
+        "lat": "51.40098300",
+        "lng": "-1.33010000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 175000,
+        "lat": "51.40215000",
+        "lng": "-1.31402000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 175000,
+        "lat": "51.39681200",
+        "lng": "-1.31622300",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 175000,
+        "lat": "51.39910800",
+        "lng": "-1.32777800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 170000,
+        "lat": "51.40157000",
+        "lng": "-1.31497000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 170000,
+        "lat": "51.39850900",
+        "lng": "-1.33820000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 169950,
+        "lat": "51.39816300",
+        "lng": "-1.32708300",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 169950,
+        "lat": "51.40573600",
+        "lng": "-1.32359000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 169950,
+        "lat": "51.39663000",
+        "lng": "-1.32805000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 167500,
+        "lat": "51.39758800",
+        "lng": "-1.31890100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 165000,
+        "lat": "51.41000000",
+        "lng": "-1.33100000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 165000,
+        "lat": "51.39848100",
+        "lng": "-1.33819700",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 165000,
+        "lat": "51.40764200",
+        "lng": "-1.31109200",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 155000,
+        "lat": "51.39600000",
+        "lng": "-1.32700000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 165000,
+        "lat": "51.40644000",
+        "lng": "-1.31078000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 165000,
+        "lat": "51.40462500",
+        "lng": "-1.32402300",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 165000,
+        "lat": "51.40199600",
+        "lng": "-1.32699500",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 163500,
+        "lat": "51.39996000",
+        "lng": "-1.32753000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 162500,
+        "lat": "51.39997000",
+        "lng": "-1.31610000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 162500,
+        "lat": "51.39721000",
+        "lng": "-1.31896000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 160000,
+        "lat": "51.39920600",
+        "lng": "-1.32761100",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 160000,
+        "lat": "51.39700000",
+        "lng": "-1.33700000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 160000,
+        "lat": "51.40600000",
+        "lng": "-1.31000000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 159995,
+        "lat": "51.39991000",
+        "lng": "-1.32520000",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 159950,
+        "lat": "51.40950700",
+        "lng": "-1.29976800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 159950,
+        "lat": "51.40573600",
+        "lng": "-1.32359000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 155000,
+        "lat": "51.40480400",
+        "lng": "-1.30840800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 155000,
+        "lat": "51.39854000",
+        "lng": "-1.33758000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.39574200",
+        "lng": "-1.31058500",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.40879000",
+        "lng": "-1.33986000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 299995,
+        "lat": "51.39750700",
+        "lng": "-1.30325200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 274950,
+        "lat": "51.39982500",
+        "lng": "-1.32653800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 279995,
+        "lat": "51.39903000",
+        "lng": "-1.32698000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 275000,
+        "lat": "51.39543100",
+        "lng": "-1.31561800",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.40929300",
+        "lng": "-1.29514100",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.40999200",
+        "lng": "-1.34822800",
+        "bedrooms": 1,
+        "type": "detached_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.39600000",
+        "lng": "-1.31700000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.39634800",
+        "lng": "-1.32315400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 275000,
+        "lat": "51.40015900",
+        "lng": "-1.31711700",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.40838600",
+        "lng": "-1.31090800",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.40433200",
+        "lng": "-1.32259600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 275000,
+        "lat": "51.40994400",
+        "lng": "-1.33907100",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.40603200",
+        "lng": "-1.29990900",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 275000,
+        "lat": "51.39739600",
+        "lng": "-1.30009100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 275000,
+        "lat": "51.41113100",
+        "lng": "-1.29994200",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 274000,
+        "lat": "51.38359500",
+        "lng": "-1.34224800",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 280000,
+        "lat": "51.39547700",
+        "lng": "-1.31566300",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 273000,
+        "lat": "51.39966000",
+        "lng": "-1.32418000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 273000,
+        "lat": "51.39651000",
+        "lng": "-1.29260000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 270000,
+        "lat": "51.40247000",
+        "lng": "-1.32809000",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 270000,
+        "lat": "51.37657300",
+        "lng": "-1.34653400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 270000,
+        "lat": "51.40018800",
+        "lng": "-1.31710300",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 270000,
+        "lat": "51.39300000",
+        "lng": "-1.31700000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 270000,
+        "lat": "51.39757300",
+        "lng": "-1.30316600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 269950,
+        "lat": "51.40893200",
+        "lng": "-1.29406800",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 269500,
+        "lat": "51.40014200",
+        "lng": "-1.31719300",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 266000,
+        "lat": "51.39921400",
+        "lng": "-1.29124600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 265000,
+        "lat": "51.38299500",
+        "lng": "-1.34264600",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 265000,
+        "lat": "51.39710200",
+        "lng": "-1.30917100",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 265000,
+        "lat": "51.39575000",
+        "lng": "-1.33526500",
+        "bedrooms": 1,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 279995,
+        "lat": "51.40838600",
+        "lng": "-1.31092700",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 280000,
+        "lat": "51.39600000",
+        "lng": "-1.30900000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 265000,
+        "lat": "51.39507100",
+        "lng": "-1.32467700",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 290000,
+        "lat": "51.39971000",
+        "lng": "-1.31866000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 299950,
+        "lat": "51.40390000",
+        "lng": "-1.32303000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 299950,
+        "lat": "51.39571500",
+        "lng": "-1.31546700",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 299950,
+        "lat": "51.40735900",
+        "lng": "-1.30835700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 299500,
+        "lat": "51.39178000",
+        "lng": "-1.31253000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 295000,
+        "lat": "51.40844000",
+        "lng": "-1.32800700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 295000,
+        "lat": "51.38714000",
+        "lng": "-1.31386200",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 295000,
+        "lat": "51.39762000",
+        "lng": "-1.33578000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 295000,
+        "lat": "51.40970000",
+        "lng": "-1.31227400",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 295000,
+        "lat": "51.41483000",
+        "lng": "-1.31213100",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 295000,
+        "lat": "51.40938800",
+        "lng": "-1.33657700",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 295000,
+        "lat": "51.39415000",
+        "lng": "-1.33291000",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 290000,
+        "lat": "51.39917000",
+        "lng": "-1.29028000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 290000,
+        "lat": "51.39185000",
+        "lng": "-1.33135000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 290000,
+        "lat": "51.40929300",
+        "lng": "-1.29514100",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 280000,
+        "lat": "51.40626000",
+        "lng": "-1.30238000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 289950,
+        "lat": "51.40841000",
+        "lng": "-1.32583700",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 289950,
+        "lat": "51.40764600",
+        "lng": "-1.32423600",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 289950,
+        "lat": "51.39074700",
+        "lng": "-1.32409200",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 287950,
+        "lat": "51.40282000",
+        "lng": "-1.32627000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 285000,
+        "lat": "51.38606500",
+        "lng": "-1.32279700",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 285000,
+        "lat": "51.39975100",
+        "lng": "-1.32702800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 285000,
+        "lat": "51.40804800",
+        "lng": "-1.30204700",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 284950,
+        "lat": "51.39598000",
+        "lng": "-1.31020000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 284000,
+        "lat": "51.39682100",
+        "lng": "-1.30922700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 280000,
+        "lat": "51.40759000",
+        "lng": "-1.29636000",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 280000,
+        "lat": "51.38617000",
+        "lng": "-1.31534000",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 280000,
+        "lat": "51.39620000",
+        "lng": "-1.31036000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 280000,
+        "lat": "51.40929300",
+        "lng": "-1.29514100",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 265000,
+        "lat": "51.38530000",
+        "lng": "-1.32113000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 265000,
+        "lat": "51.40008800",
+        "lng": "-1.31384100",
+        "bedrooms": 3,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 225000,
+        "lat": "51.39843900",
+        "lng": "-1.32553800",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 232000,
+        "lat": "51.39796600",
+        "lng": "-1.33007300",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 240000,
+        "lat": "51.38700000",
+        "lng": "-1.31600000",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 240000,
+        "lat": "51.39739600",
+        "lng": "-1.30009100",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 240000,
+        "lat": "51.40798400",
+        "lng": "-1.32687300",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 239950,
+        "lat": "51.39600300",
+        "lng": "-1.32631700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 235000,
+        "lat": "51.40539000",
+        "lng": "-1.31722000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 235000,
+        "lat": "51.40990200",
+        "lng": "-1.34652900",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 235000,
+        "lat": "51.39834500",
+        "lng": "-1.32558900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 235000,
+        "lat": "51.39820200",
+        "lng": "-1.33018000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 235000,
+        "lat": "51.40887100",
+        "lng": "-1.31031600",
+        "bedrooms": 1,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 235000,
+        "lat": "51.40233000",
+        "lng": "-1.31382000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 235000,
+        "lat": "51.39682200",
+        "lng": "-1.30924700",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 234950,
+        "lat": "51.39615100",
+        "lng": "-1.32222200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 234950,
+        "lat": "51.39735000",
+        "lng": "-1.30020800",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 230000,
+        "lat": "51.40202000",
+        "lng": "-1.32370000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 245000,
+        "lat": "51.40613400",
+        "lng": "-1.32874500",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 230000,
+        "lat": "51.38600000",
+        "lng": "-1.32000000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 230000,
+        "lat": "51.38775400",
+        "lng": "-1.32201600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 230000,
+        "lat": "51.40540700",
+        "lng": "-1.31673700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 230000,
+        "lat": "51.39767500",
+        "lng": "-1.31626300",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 230000,
+        "lat": "51.38929400",
+        "lng": "-1.31506600",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 229995,
+        "lat": "51.39779600",
+        "lng": "-1.33788000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 229950,
+        "lat": "51.40815700",
+        "lng": "-1.32888400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 226000,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.39740600",
+        "lng": "-1.30016200",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.40012200",
+        "lng": "-1.31560200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.39684900",
+        "lng": "-1.33111900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.40392800",
+        "lng": "-1.32491700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 225000,
+        "lat": "51.40397900",
+        "lng": "-1.32256100",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 240000,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 245000,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 264950,
+        "lat": "51.39795200",
+        "lng": "-1.31576100",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.41005600",
+        "lng": "-1.31472700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 261000,
+        "lat": "51.40868000",
+        "lng": "-1.31693000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 260000,
+        "lat": "51.39600000",
+        "lng": "-1.30900000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 260000,
+        "lat": "51.40195700",
+        "lng": "-1.32817000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 260000,
+        "lat": "51.39802800",
+        "lng": "-1.31516500",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 260000,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 259950,
+        "lat": "51.39543500",
+        "lng": "-1.32871400",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 259500,
+        "lat": "51.41143600",
+        "lng": "-1.33771200",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 259000,
+        "lat": "51.39929000",
+        "lng": "-1.32607000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 259000,
+        "lat": "51.40868000",
+        "lng": "-1.31693000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 257500,
+        "lat": "51.40608200",
+        "lng": "-1.32304900",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 254795,
+        "lat": "51.39941000",
+        "lng": "-1.32152000",
+        "bedrooms": 2,
+        "type": "detached_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.40729100",
+        "lng": "-1.30540800",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.38351500",
+        "lng": "-1.34340300",
+        "bedrooms": 3,
+        "type": "terraced_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.39536900",
+        "lng": "-1.31713100",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 247500,
+        "lat": "51.39413100",
+        "lng": "-1.32732600",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 250000,
+        "lat": "51.39795100",
+        "lng": "-1.33039700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 250000,
+        "lat": "51.40376500",
+        "lng": "-1.32655200",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 250000,
+        "lat": "51.39900000",
+        "lng": "-1.31300000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.39600000",
+        "lng": "-1.30900000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 250000,
+        "lat": "51.40008800",
+        "lng": "-1.31384100",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.40857000",
+        "lng": "-1.32847000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 250000,
+        "lat": "51.40060400",
+        "lng": "-1.31747000",
+        "bedrooms": 2,
+        "type": "terraced_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.41030400",
+        "lng": "-1.33167000",
+        "bedrooms": 1,
+        "type": "flat"
+      },
+      {
+        "price": 250000,
+        "lat": "51.38324700",
+        "lng": "-1.34201600",
+        "bedrooms": 3,
+        "type": "detached_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.38383500",
+        "lng": "-1.34142700",
+        "bedrooms": 2,
+        "type": "semi-detached_house"
+      },
+      {
+        "price": 250000,
+        "lat": "51.40824600",
+        "lng": "-1.32980700",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 249950,
+        "lat": "51.40886000",
+        "lng": "-1.33963300",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 249950,
+        "lat": "51.40868000",
+        "lng": "-1.31693000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 249000,
+        "lat": "51.39929000",
+        "lng": "-1.32607000",
+        "bedrooms": 2,
+        "type": "flat"
+      },
+      {
+        "price": 2250000,
+        "lat": "51.40964700",
+        "lng": "-1.34636800",
+        "bedrooms": 5,
+        "type": "detached_house"
+      }
+    ]
+  },
+  "process_time": "1.72"
+}

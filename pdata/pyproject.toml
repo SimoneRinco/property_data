@@ -3,5 +3,6 @@ requires = [
     "setuptools>=42",
     "wheel",
     "matplotlib"
+    "scikit-learn"
 ]
 build-backend = "setuptools.build_meta"
