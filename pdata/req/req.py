@@ -21,7 +21,8 @@ def get_json(url, **params):
   return r.json()
 
 
-MIN_TIME_BETWEEN_API_CALLS = 3
+# Used to be 2s before removal of the API throttle.
+MIN_TIME_BETWEEN_API_CALLS = 0.25
 
 
 if __name__ == '__main__':
