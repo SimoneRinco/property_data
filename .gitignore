@@ -1,4 +1,6 @@
 venv/
+test_datasets/
+test_db/
 *.pyproj
 *.png
 pdata/maps/__pycache__/

@@ -29,7 +29,7 @@ if __name__ == "__main__":
       sold_prices = SoldPrices.load(f)
 
 
-  ptypes = [PropertyType.SEMI_DETACHED, PropertyType.DETACHED]
+  ptypes = [PropertyType.TERRACED, PropertyType.SEMI_DETACHED, PropertyType.DETACHED]
   beds = [3, 4]
 
   colors = [None, 'blue', 'red', 'gold', 'green', 'fuchsia']

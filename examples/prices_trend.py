@@ -12,7 +12,7 @@ import math
 
 if __name__ == '__main__':
 
-  postcode = "RG14"
+  postcode = "OX4"
 
   ptypes = [PropertyType.SEMI_DETACHED, PropertyType.DETACHED]
   beds = [3, 4, 5]
@@ -35,6 +35,7 @@ if __name__ == '__main__':
     all_prices.append(prices)
 
   fig = plt.figure()
+  fig.suptitle(f"prices trend in {postcode}")
   gs = GridSpec(nrows=len(ptypes) + 1, ncols=len(beds))
   for ip, p in enumerate(ptypes):
     for ib, b in enumerate(beds):
