@@ -1,10 +1,13 @@
 from pdata.req.prices import Prices
 import pdata.db.utils as db_utils
 
+import pandas
+
 from collections import namedtuple
 import datetime
 import sqlite3
 import os
+import datetime
 
 class PricesDb(object):
 
@@ -70,53 +73,58 @@ class PricesDb(object):
     """
     self.create_table()
 
+    raw_items_db = [PricesDb.row_from_prices_raw_item(r) for r in prices.raw_items if r.bedrooms is not None]
+    raw_items_db_df = pandas.DataFrame(raw_items_db)
+    # Group by key and aggregate the price
+    raw_items_db_df_grouped = raw_items_db_df.groupby(['lat', 'lng', 'bedrooms', 'ptype'])
+    raw_items_db_df_grouped_agg = raw_items_db_df_grouped.agg({'price' : 'mean'})
+
+    print(f"Update for date {date.isoformat()}. Processing {len(raw_items_db_df_grouped_agg)} data points")
+
     cur = self.connection.cursor()
     cur.execute('SELECT * from prices WHERE postcode_district=:p', {'p' : postcode_district})
-    rows = cur.fetchall()
+    current_db_rows = cur.fetchall()
 
-    raw_items = [r for r in prices.raw_items if r.bedrooms is not None]
-
-    # prices found in the database (indices)
-    prices_found = [False] * len(raw_items)
-
-    updates = []
-
-    for r in rows:
+    n_price_changed, n_removed, updates = 0, 0, []
+    for r in current_db_rows:
       r_db = PricesDb.row_from_db_row(r)
       if r_db.date_removed is not None:
         # This record belongs to the history and can be skipped
         continue
-      for index, raw_item in enumerate(raw_items):
-        r_raw = PricesDb.row_from_prices_raw_item(raw_item)
-        if (
-          r_db.lat == r_raw.lat and
-          r_db.lng == r_raw.lng and
-          r_db.bedrooms == r_raw.bedrooms and
-          r_db.ptype == r_raw.ptype
-          ):
-          # found an active record
-          prices_found[index] = True
-          # has the price changed?
-          if r_db.price != r_raw.price:
-            r_db = r_db._replace(date_price_changed=db_utils.date2int(date), price=r_raw.price)
-            updates.append(r_db)
-          break
-      else:
+      label = (r_db.lat, r_db.lng, r_db.bedrooms, r_db.ptype)
+      try:
+        r_agg = raw_items_db_df_grouped_agg.loc[label]
+      except:
         # r_db not found, that means it has been removed
         r_db = r_db._replace(date_removed=db_utils.date2int(date))
+        n_removed += 1
+        updates.append(r_db)
+        continue
+      raw_items_db_df_grouped_agg = raw_items_db_df_grouped_agg.drop(label)
+      new_price = r_agg['price']
+      if r_db.price != new_price:
+        r_db = r_db._replace(date_price_changed=db_utils.date2int(date), price=new_price)
+        n_price_changed += 1
         updates.append(r_db)
 
-    # now check for new records
-    new_records = []
-    for found, raw_item in zip(prices_found, raw_items):
-      if found:
-        continue
-      r = PricesDb.row_from_prices_raw_item(raw_item)
-      r = r._replace(postcode_district=postcode_district, date_added=db_utils.date2int(date))
-      new_records.append(r)
-    
-    # Insert the new rows
-    for r in new_records:
+    # now only new records are left in raw_items_db_df_grouped_agg
+    print(f"price changed: {n_price_changed}, removed from market: {n_removed}, new: {len(raw_items_db_df_grouped_agg)}")
+
+    for i in raw_items_db_df_grouped_agg.index:
+      v = raw_items_db_df_grouped_agg.loc[i]
+      p=v['price']
+      r = PricesDb.Row(
+        postcode_district=postcode_district,
+        lat=i[0],
+        lng=i[1],
+        bedrooms=i[2],
+        ptype=i[3],
+        date_added=db_utils.date2int(date),
+        price_added=p,
+        date_price_changed=None,
+        date_removed=None,
+        price=p
+      )
       prices_db.connection.execute(
         """INSERT INTO prices VALUES (
         :postcode_district,
@@ -134,31 +142,36 @@ class PricesDb(object):
 
     # update existing rows
     for r in updates:
-      prices_db.connection.execute(
-        """UPDATE prices SET (date_removed, date_price_changed, price) = (:date_removed, :date_price_changed, :price)
-        WHERE (lat=:lat, lng=:lng, bedrooms=:bedrooms, type=:ptype, date_removed=NULL)
+      cur = prices_db.connection.execute(
+        """UPDATE prices SET
+            date_removed = :date_removed,
+            date_price_changed = :date_price_changed,
+            price = :price
+        WHERE
+          lat=:lat AND
+          lng=:lng AND
+          bedrooms=:bedrooms AND
+          type=:ptype AND
+          date_removed IS NULL
         """, r._asdict())
+      assert(cur.rowcount == 1)
     
 
 if __name__ == '__main__':
 
   prices_db = PricesDb('test_db/propertydata.db')
-  prices_db.connect()
 
   postcode='RG14'
-  dates=['2021-10-01', '2021-10-02', '2021-10-03', '2021-10-04']
-  #dates=['2021-10-01']
+  dates = os.listdir(os.path.join('test_datasets', 'prices', postcode))
+  dates = [datetime.date.fromisoformat(d.split('.')[0]) for d in dates]
+  dates.sort()
 
   for d in dates:
-    with open(os.path.join('test_datasets', 'prices', postcode, f'{d}.json')) as f:
+    prices_db.connect()
+    with open(os.path.join('test_datasets', 'prices', postcode, f'{d.isoformat()}.json')) as f:
       p = Prices.load(f)
-    prices_db.update(datetime.date.fromisoformat(d), postcode, p)
-
-  # Save (commit) the changes
-  prices_db.connection.commit()
-
-  # We can also close the connection if we are done with it.
-  # Just be sure any changes have been committed or they will be lost.
-  prices_db.connection.close()
+    prices_db.update(d, postcode, p)
+    prices_db.connection.commit()
+    prices_db.connection.close()
 
 

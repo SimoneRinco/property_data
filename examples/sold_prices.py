@@ -11,23 +11,33 @@ import os
 
 if __name__ == "__main__":
 
-  postcode = "RG14"
-  dir = os.path.join('test_datasets', 'sold_prices', postcode)
-  d = date.today()
-  filepath = os.path.join(dir, f'{d.isoformat()}.json')
+  postcodes = [
+    "OX1", "OX2", "OX3", "OX4", # Oxford
+    "OX13", "OX14", # Abingdon
+    "RG14", # Newbury
+    "RG18", "RG19", # Thatcham
+    "RG1", "RG2", "RG4", "RG5", "RG6", # Reading
+    "RG9", # Henley on Thames
+    ]
 
-  if not os.path.exists(dir):
-    os.makedirs(dir)
+  for postcode in postcodes:
+    dir = os.path.join('test_datasets', 'sold_prices', postcode)
+    d = date.today()
+    filepath = os.path.join(dir, f'{d.isoformat()}.json')
 
-  if not os.path.exists(filepath):
-    j = SoldPrices.req(postcode=postcode, max_age=60)
-    with open(filepath, 'w') as f:
-      json.dump(j, f)
-    sold_prices = SoldPrices.Data(j)
-  else:
-    with open(filepath) as f:
-      sold_prices = SoldPrices.load(f)
+    if not os.path.exists(dir):
+      os.makedirs(dir)
 
+    if not os.path.exists(filepath):
+      print(f'downloading sold prices for {postcode}')
+      j = SoldPrices.req(postcode=postcode, max_age=60)
+      with open(filepath, 'w') as f:
+        json.dump(j, f)
+      sold_prices = SoldPrices.Data(j)
+    else:
+      with open(filepath) as f:
+        print(f'loading sold prices for {postcode}')
+        sold_prices = SoldPrices.load(f)
 
   ptypes = [PropertyType.TERRACED, PropertyType.SEMI_DETACHED, PropertyType.DETACHED]
   beds = [3, 4]

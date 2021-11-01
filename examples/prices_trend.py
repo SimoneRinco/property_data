@@ -12,10 +12,10 @@ import math
 
 if __name__ == '__main__':
 
-  postcode = "OX4"
+  postcode = "RG14"
 
-  ptypes = [PropertyType.SEMI_DETACHED, PropertyType.DETACHED]
-  beds = [3, 4, 5]
+  ptypes = [PropertyType.SEMI_DETACHED] #, PropertyType.DETACHED]
+  beds = [3, 4]
 
   dirname = os.path.join('test_datasets', 'prices', postcode)
   dir = os.listdir(dirname)
@@ -39,13 +39,17 @@ if __name__ == '__main__':
   gs = GridSpec(nrows=len(ptypes) + 1, ncols=len(beds))
   for ip, p in enumerate(ptypes):
     for ib, b in enumerate(beds):
-      ax0 = fig.add_subplot(gs[ip, ib])
+      ax0 = fig.add_subplot(gs[ip, ib])     
       y = [prices[(p, b)] for prices in all_prices]
-      ax0.boxplot(y, labels=all_dates)
+      ax0.boxplot(y, positions=mdates.date2num(all_dates))
       ax0.set_title(f"{property_type2short(p)}, {b} beds (prices)")
+      ax0.xaxis.set_major_locator(mdates.MonthLocator())
+      ax0.xaxis.set_minor_locator(mdates.WeekdayLocator())
+      ax0.xaxis.set_major_formatter(mdates.DateFormatter('%d-%m-%y'))
 
   ax1 = fig.add_subplot(gs[len(ptypes), :])
-  ax1.xaxis.set_major_locator(mdates.DayLocator())
+  ax1.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+  ax1.xaxis.set_minor_locator(mdates.WeekdayLocator())
   ax1.xaxis.set_major_formatter(mdates.DateFormatter('%d-%m-%y'))
   legend = []
   for p in ptypes:
