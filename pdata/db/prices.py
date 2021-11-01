@@ -1,5 +1,6 @@
 from pdata.req.prices import Prices
 import pdata.db.utils as db_utils
+from pdata.postcode import Postcodes
 
 import pandas
 
@@ -13,6 +14,7 @@ class PricesDb(object):
 
   Row = namedtuple('Row',
                    ['postcode_district',
+                    'postcode',
                     'lat',
                     'lng',
                     'bedrooms',
@@ -33,6 +35,7 @@ class PricesDb(object):
     lat, lng = db_utils.latlng2int(raw_item.coordinates)
     return PricesDb.Row(
       postcode_district=None,
+      postcode=None,
       lat=lat,
       lng=lng, 
       bedrooms=raw_item.bedrooms,
@@ -55,6 +58,7 @@ class PricesDb(object):
     CREATE TABLE IF NOT EXISTS prices
       (
         postcode_district     TEXT,
+        postcode              TEXT,
         lat                   INTEGER NOT NULL,
         lng                   INTEGER NOT NULL,
         bedrooms              INTEGER NOT NULL,
@@ -68,7 +72,7 @@ class PricesDb(object):
       )
         ''')
 
-  def update(self, date, postcode_district, prices):
+  def update(self, date, postcode_district, postcodes, prices):
     """prices: prices for the specified postcode district and and date (Prices.Data)
     """
     self.create_table()
@@ -115,6 +119,7 @@ class PricesDb(object):
       p=v['price']
       r = PricesDb.Row(
         postcode_district=postcode_district,
+        postcode=postcodes.find(db_utils.int2latlng(i[0], i[1])),
         lat=i[0],
         lng=i[1],
         bedrooms=i[2],
@@ -128,6 +133,7 @@ class PricesDb(object):
       prices_db.connection.execute(
         """INSERT INTO prices VALUES (
         :postcode_district,
+        :postcode,
         :lat,
         :lng,
         :bedrooms,
@@ -162,15 +168,21 @@ if __name__ == '__main__':
   prices_db = PricesDb('test_db/propertydata.db')
 
   postcode='RG14'
+  postcodes = Postcodes()
+  with open(os.path.join('postcodes', f'{postcode}.csv')) as f:
+    postcodes.load_csv(f)
+
   dates = os.listdir(os.path.join('test_datasets', 'prices', postcode))
   dates = [datetime.date.fromisoformat(d.split('.')[0]) for d in dates]
   dates.sort()
+
+
 
   for d in dates:
     prices_db.connect()
     with open(os.path.join('test_datasets', 'prices', postcode, f'{d.isoformat()}.json')) as f:
       p = Prices.load(f)
-    prices_db.update(d, postcode, p)
+    prices_db.update(d, postcode, postcodes, p)
     prices_db.connection.commit()
     prices_db.connection.close()
 
