@@ -130,7 +130,7 @@ class PricesDb(object):
         date_removed=None,
         price=p
       )
-      prices_db.connection.execute(
+      self.connection.execute(
         """INSERT INTO prices VALUES (
         :postcode_district,
         :postcode,
@@ -148,7 +148,7 @@ class PricesDb(object):
 
     # update existing rows
     for r in updates:
-      cur = prices_db.connection.execute(
+      cur = self.connection.execute(
         """UPDATE prices SET
             date_removed = :date_removed,
             date_price_changed = :date_price_changed,
@@ -161,22 +161,13 @@ class PricesDb(object):
           date_removed IS NULL
         """, r._asdict())
       assert(cur.rowcount == 1)
-    
 
-if __name__ == '__main__':
-
+  
+def fill_database(postcode, dates):
   prices_db = PricesDb('test_db/propertydata.db')
-
-  postcode='RG14'
   postcodes = Postcodes()
   with open(os.path.join('postcodes', f'{postcode}.csv')) as f:
     postcodes.load_csv(f)
-
-  dates = os.listdir(os.path.join('test_datasets', 'prices', postcode))
-  dates = [datetime.date.fromisoformat(d.split('.')[0]) for d in dates]
-  dates.sort()
-
-
 
   for d in dates:
     prices_db.connect()
@@ -185,5 +176,20 @@ if __name__ == '__main__':
     prices_db.update(d, postcode, postcodes, p)
     prices_db.connection.commit()
     prices_db.connection.close()
+
+def update_today(postcode):
+  dates = [datetime.date.today()]
+  fill_database(postcode, dates)
+
+def update_all(postcode):
+
+  dates = os.listdir(os.path.join('test_datasets', 'prices', postcode))
+  dates = [datetime.date.fromisoformat(d.split('.')[0]) for d in dates]
+  dates.sort()
+  fill_database(postcode, dates)
+
+if __name__ == '__main__':
+  postcode = 'RG14'
+  update_today(postcode)
 
 
