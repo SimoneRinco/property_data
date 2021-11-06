@@ -20,7 +20,7 @@ class SoldPrices(object):
         """
         # fill the None fields if required
         self.date = datetime.date.fromisoformat(d['date'])
-        self.address = None
+        self.address = d['address']
         self.price = int(d['price'])
         self.coordinates = dict2coo(d)
         b = d['bedrooms']

@@ -27,12 +27,14 @@ def gather_today():
 
   today = date.today()
 
+  force_download = False
+
   for postcode in postcodes:
     dir = os.path.join('test_datasets', 'prices', postcode)
     if not os.path.exists(dir):
       os.makedirs(dir)
     prices_filename = os.path.join(dir, f'{today.isoformat()}.json')
-    if os.path.exists(prices_filename):
+    if os.path.exists(prices_filename) and not force_download:
       print(f"Skipping {postcode} as data is already present")
     else:
       print(f"Gathering prices for {postcode}")
