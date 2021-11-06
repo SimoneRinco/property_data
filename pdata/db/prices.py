@@ -191,5 +191,7 @@ def update_all(postcode):
 if __name__ == '__main__':
   postcode = 'RG14'
   update_today(postcode)
+  #update_all(postcode)
+
 
 
